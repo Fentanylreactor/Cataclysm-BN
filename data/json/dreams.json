@@ -7,6 +7,12 @@
   },
   {
     "type": "dream",
+    "messages": [ "You have a strange dream about bunnies.", "Your dreams give you a joyful bouncy feeling." ],
+    "category": "RABBIT",
+    "strength": 1
+  },
+  {
+    "type": "dream",
     "messages": [
       "You have a strange dream about being a patient in a frightening hospital.",
       "Your dreams give you an oddly medicated feeling."
@@ -146,6 +152,15 @@
       "While dreaming, you see a distinctively lizard-like reflection of yourself."
     ],
     "category": "LIZARD",
+    "strength": 2
+  },
+  {
+    "type": "dream",
+    "messages": [
+      "You have a vivid dream of eating a nice, big, orange carrot.  It looks bigger than you!",
+      "Whilst dreaming, you see yourself… but with a pair of large bunny ears on your head?"
+    ],
+    "category": "RABBIT",
     "strength": 2
   },
   {
@@ -311,6 +326,15 @@
       "You have a disturbingly lifelike dream of living as a lizard."
     ],
     "category": "LIZARD",
+    "strength": 3
+  },
+  {
+    "type": "dream",
+    "messages": [
+      "You vividly dream of skipping away from a big, scary predator.",
+      "It's like your stamina never ends, you wish you had this much energy outside of the dream world!"
+    ],
+    "category": "RABBIT",
     "strength": 3
   },
   {
@@ -488,6 +512,15 @@
     "type": "dream",
     "messages": [ "You are terrified by a dream of becoming an ape hybrid.", "You blissfully recall days spent lounging in the sun." ],
     "category": "LIZARD",
+    "strength": 4
+  },
+  {
+    "type": "dream",
+    "messages": [
+      "You dream of sticking your finger down the barrel of that mean ol' farmer's shotgun, just like a certain cartoon character.",  
+      "You dream about farming your very own near-limitless supply of carrots."
+    ],
+    "category": "RABBIT",
     "strength": 4
   },
   {
