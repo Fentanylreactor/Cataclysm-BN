@@ -133,7 +133,7 @@ Each folder here houses it's appropriate json files, like `recipes` housing reci
 
 **It is far easier to copy something that exists and modify it than to write json from scratch**
 
-Find the json code of something that's similar to what you want. Then edit it. To cover everything here would take quite a bit of time, I would recommend that you look through [the modding guide](<https://www.leagueoflegends.com/ro-ro/download>) because the json for modding and json for contributions are the same.
+Find the json code of something that's similar to what you want. Then edit it. To cover everything here would take quite a bit of time, I would recommend that you look through [the modding guide](<https://docs.cataclysmbn.org/mod/json/reference/json_info/ >) because the json for modding and json for contributions are the same.
 
 # Editing
 
