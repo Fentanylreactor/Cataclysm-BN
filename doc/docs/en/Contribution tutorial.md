@@ -2,11 +2,11 @@
 
 If you have, at any point, thought that something was missing from the game, or wanted to help the project, look no further! 
 
-The scope of this document is to teach you how to contribute to **Bright Nights** from ground up.
+The scope of this document is to teach you how to contribute to Bright Nights from ground up.
 
 First, This is a list of things you can change/make with zero/barely any coding experience :
 
-* Monsters (Mutated flying clams) and Zombies (Electric dissoluted devourer, flying shoggoths, etc.) 
+* Monsters (Flying cats and dogs, laser triffid) and Zombies (Electric dissoluted devourer, flying shoggoths, etc.) 
 * Weapons (Superalloy katana) and Armor (Superalloy power armor) 
 * Terrain (Marble tiles, new walls and doors, etc.) and Furniture (New lamps, indoor plants, etc.) 
 * Vehicle parts (Superalloy roller drum, water powered engine, etc) and Vehicles (Tanks, AT, etc.) 
