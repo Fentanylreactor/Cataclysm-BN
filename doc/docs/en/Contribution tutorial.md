@@ -1,29 +1,31 @@
+# A Beginners guide to contributing 
+
 If you have, at any point, thought that something was missing from the game, or wanted to help the project, look no further! 
 
-The scope of this document is to teach you how to contribute to Bright Nights from ground up.
+The scope of this document is to teach you how to contribute to **Bright Nights** from ground up.
 
 First, This is a list of things you can change/make with zero/barely any coding experience :
 
-> Monsters and Zombies 
-> Weapons and Armor 
-> Terrain and Furniture
-> Vehicle parts and Vehicles
-> Mapgen (like houses or military bases)
-> Spells and Enchants 
-> Most Mutations, Bionics and Effects 
+* Monsters (Mutated flying clams) and Zombies (Electric dissoluted devourer, flying shoggoths, etc.) 
+* Weapons (Superalloy katana) and Armor (Superalloy power armor) 
+* Terrain (Marble tiles, new walls and doors, etc.) and Furniture (New lamps, indoor plants, etc.) 
+* Vehicle parts (Superalloy roller drum, water powered engine, etc) and Vehicles (Tanks, AT, etc.) 
+* New locations (like houses or military bases)
+* Spells (Summon anvil, cast internal combustion) and Enchants (When it's day i get +5 STR) 
+* Most Mutations, Bionics and Effects 
 
 The tools required :
 
-A github account
-A text editor (Notepad suffices but notepad++, vscode and many others can make your life easier and are free, notepad++ in particular is easy to set up)
+**A github account**
+**A text editor** (Notepad suffices but Notepad++, Vscode and many others can make your life easier and are free, notepad++ in particular is easy to set up)
 
 Once you have those you are ready to start contributing!
 
-But first, making content really isn't the black magic people assume it is:
+But first, coding and contributing isn't black magic, this is what you will be working with:
 
 ```
 {
-  "id": "mon_zombie",
+  "id": "mon_zombie", 
   "type": "MONSTER",
   "name": {
     "str": "zombie"
@@ -95,21 +97,27 @@ But first, making content really isn't the black magic people assume it is:
   ]
 }
 ```
-This is ALL the json that goes into a basic zombie. Surprisingly simple, right?
+This is ALL the JSON that goes into a basic zombie. 
+
+If you want it to be faster, increase it's speed. Survive more hits? Increase its HP (hit points). 
 
 With that out of the way, let's begin! 
 
 - - -
 
-First, go to the main page of [the game](<https://github.com/cataclysmbn/Cataclysm-BN?tab=readme-ov-file>)
+# Getting started:
 
-Second, fork the game (not a typo) :
+1. Go to the main page of [the game](<https://github.com/cataclysmbn/Cataclysm-BN?tab=readme-ov-file>)
+
+2. Fork the game (not a typo) :
 
 Placeholder text until i get image here
 
 Placeholder text until get second image here
 
-You now have copied the games files onto your own github account, every change you implement will first show up here, and them you simply request (explained a bit later) for them to be added to the main game. 
+> Explanation: You made your own copy of the game on your github account. Your changes will first be applied here, then you request them to be added to the main game. (explained later) 
+
+> it is my personal recommendation to keep both your offline game and your github repo as often updated as possible. New features get added often and you might miss something that could make your life easier.
 
 
 
