@@ -28,14 +28,14 @@
 # ARDOR Flag, 2025
 # scarf <greenscarf005@gmail.com>, 2025
 # DelFe, 2025
-# Coolthulhu <Coolthulhu@gmail.com>, 2025
 # Tae Heon Lim, 2026
+# Coolthulhu <Coolthulhu@gmail.com>, 2026
 # Choi Dong-uk, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-bn\n"
-"POT-Creation-Date: 2026-01-03 19:46+0000\n"
+"POT-Creation-Date: 2026-01-11 03:04+0000\n"
 "Last-Translator: Choi Dong-uk, 2026\n"
 "Language-Team: Korean (https://app.transifex.com/bn-team/teams/113585/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -1025,6 +1025,9 @@ msgid ""
 "the body part's encumbrance.  The layering penalty applies a minimum of 2 "
 "and a maximum of 10 encumbrance per article of clothing."
 msgstr ""
+"당신이 착용하는 의복은 속옷, 평상복, 허리, 겉옷, 벨트 고정 의 총 5단계로 구분됩니다. 기본적으로는 각 단계별로 하나의 의복만 "
+"착용할 수 있으며, 특별히 물품 정보란에 명시되지 않은 이상 같은 단계에 속하는 의복을 둘 이상 착용하면 겹쳐입은 의복의 갯수에 따라 "
+"최소 2에서 최대 10까지 방해도 페널티가 발생합니다."
 
 #: data/help/texts.json
 msgid ""
@@ -1034,6 +1037,9 @@ msgid ""
 "on a fur coat it would conflict with the trenchcoat and add the minimum "
 "encumbrance penalty of 2 on top of the items natural encumbrance."
 msgstr ""
+"예를 들어, 캐릭터가 몸통 부위에 가죽 코르셋 (속옷), 가죽 여행복 (평상복), 트렌치코트 (겉옷), 생존용 러너팩을 착용하는 경우 "
+"방해도 페널티는 0입니다. 캐릭터가 모피 코트를 착용하면 기존에 착용한 트렌치코트와 중복되므로, 각 물품의 방해도와 더불어 방해도 페널티"
+" 최저값인 2가 발생합니다."
 
 #: data/help/texts.json
 msgid ""
@@ -1238,6 +1244,8 @@ msgid ""
 "level of combat skill.  Those special moves or combos are executed "
 "automatically during attacks you make."
 msgstr ""
+"대부분의 무술은 관련된 고유 기술이 존재합니다. 대체로 기술 선결사항이 있고, 해당 전투 기술을 일정 수준만큼 익히기 전까지는 사용할 수"
+" 없습니다. 이러한 고유 기술이나 연속기는 당신의 공격 과정에서 자동적으로 발동됩니다."
 
 #: data/help/texts.json
 msgid ""
@@ -1329,6 +1337,9 @@ msgid ""
 "damage.  Items made of glass, ceramics, diamond or precious metals will be "
 "totally immune to acid."
 msgstr ""
+"강산으로부터 보호받고 싶다면 고무, 케블라, 가죽, 천 순으로 강산에 강하다는 것을 기억해두세요. 가죽과 케블라는 움직이는 적으로부터 "
+"당신을 지켜줄 것이고, 화생방 방호복과 고무 장화가 있으면 강산 피해로부터 거의 완전한 면역을 얻게 됩니다. 유리, 세라믹, 다이아몬드 "
+"및 기타 귀금속은 강산에 완전히 면역입니다."
 
 #: data/help/texts.json
 msgid ""
@@ -1370,6 +1381,10 @@ msgid ""
 " refrigerators, and even root cellars.  Frozen food will not rot.  Having a "
 "way to keep food preserved is often essential for long-term survival."
 msgstr ""
+"겨울은 가혹합니다. 양모나 모피 같은 보온성이 높은 의복을 준비해야 살아남을 수 있습니다. 지하실을 비롯한 지하 환경은 지상과 비교할 때"
+" 겨울에는 보다 따뜻하고 여름에는 보다 시원하므로, 잠을 자거나 물품을 만들기에 적합합니다. 대부분의 음식은 시간이 지나면 부패하며, "
+"냉동고, 냉장고, 아니면 지하 저장실이라도 마련해서 이 과정을 늦출 수 있습니다. 얼어붙은 음식은 부패하지 않습니다. 음식을 보존할 "
+"방법을 마련해두는 것은 장기 생존에 있어 꽤 중요한 일입니다."
 
 #: data/help/texts.json
 msgid ""
@@ -4479,7 +4494,7 @@ msgstr ""
 #: data/json/bionics.json data/json/items/bionics.json
 msgid "Gasoline Fuel Cell CBM"
 msgid_plural "Gasoline Fuel Cell CBMs"
-msgstr[0] "CBM: 휘발유 연료 시스템"
+msgstr[0] "CBM:휘발유 연료 시스템"
 
 #. ~ Description for {'str': 'Gasoline Fuel Cell CBM'}
 #: data/json/bionics.json
@@ -4497,7 +4512,7 @@ msgstr ""
 #: data/json/bionics.json data/json/items/bionics.json
 msgid "Hydrogen Fuel Cell CBM"
 msgid_plural "Hydrogen Fuel Cell CBMs"
-msgstr[0] "CBM: 수소 연료 시스템"
+msgstr[0] "CBM:수소 연료 시스템"
 
 #. ~ Description for {'str': 'Hydrogen Fuel Cell CBM'}
 #: data/json/bionics.json
@@ -4753,7 +4768,7 @@ msgstr ""
 #: data/json/bionics.json data/json/items/bionics.json
 msgid "Debug Fuel Cell CBM"
 msgid_plural "Debug Fuel Cell CBMs"
-msgstr[0] "CBM: 디버그 연료 전지 시스템"
+msgstr[0] "CBM:디버그 연료 전지 시스템"
 
 #. ~ Description for {'str': 'Debug Fuel Cell CBM'}
 #: data/json/bionics.json data/json/items/bionics.json
@@ -5323,6 +5338,10 @@ msgid "Build Clay Kiln"
 msgstr "점토 가마 제작"
 
 #: data/json/construction_group.json
+msgid "Build Charcoal Purifier"
+msgstr "목탄 정수기 제작"
+
+#: data/json/construction_group.json
 msgid "Build Coat Rack"
 msgstr "코트 걸이 제작"
 
@@ -5639,6 +5658,10 @@ msgid "Build Road Barricade"
 msgstr "도로 바리케이드 제작"
 
 #: data/json/construction_group.json
+msgid "Build Simple Wooden Barricade"
+msgstr "간이 나무 바리케이드 제작"
+
+#: data/json/construction_group.json
 msgid "Build Rock Forge"
 msgstr "석재 용광로 제작"
 
@@ -5749,6 +5772,10 @@ msgstr "탁자 제작"
 #: data/json/construction_group.json
 msgid "Build Tarp Lean-To"
 msgstr "타프 피난처 제작"
+
+#: data/json/construction_group.json
+msgid "Build Leather Tarp Lean-To"
+msgstr "가죽 타프 피난처 제작"
 
 #: data/json/construction_group.json
 msgid "Build Thatched Roof Over Dirt Floor"
@@ -11961,6 +11988,13 @@ msgstr ""
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
 msgid ""
+"This thrown item <info>flies straight</info> without rotating in the air, "
+"maintaining its aerodynamic orientation."
+msgstr "이 물품은 던져지는 과정에서 공중에서 회전하지 않고 <info>똑바로 날아가</info>, 공기역학적 형상을 유지합니다."
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: data/json/flags.json
+msgid ""
 "This weapon <good>can shoot underwater</good>, but <info>unless it was "
 "specifically designed to do so</info>, it <bad>will suffer from accuracy "
 "penalty</bad>."
@@ -13077,6 +13111,10 @@ msgstr "장비 물품"
 msgid "WEAPON HELD"
 msgstr "장비 무기"
 
+#: data/json/item_category.json
+msgid "USABLE BIONICS"
+msgstr "이용 가능한 바이오닉"
+
 #: data/json/legacy_artifact_active.json
 msgid "Artifact Adrenaline"
 msgstr "아티팩트: 광폭"
@@ -13726,7 +13764,7 @@ msgstr "물품: 바이오닉"
 #. ~ Description for Loot: Bionics
 #: data/json/loot_zones.json
 msgid "Destination for Compact Bionics Modules, a.k.a. CBMS."
-msgstr "간소화 생체 모듈 Compact Bionics Modules, 줄여서 CBM을 모아놓는 곳입니다."
+msgstr "소형 바이오닉 모듈(Compact Bionics Modules), 줄여서 CBM을 모아놓는 곳입니다."
 
 #: data/json/loot_zones.json
 msgid "Loot: V.Parts"
@@ -14186,109 +14224,6 @@ msgid ""
 "Items in this zone will be automatically consumed during a long activity if "
 "you get thirsty."
 msgstr "장기간 활동 중에 목이 마르면 자동적으로 이 영역 내에 있는 음료를 마실 것입니다."
-
-#: data/json/main.lua
-msgid "Do you want to modify grid connections?"
-msgstr "전력망 연결을 변경합니까?"
-
-#: data/json/main.lua src/iexamine.cpp src/iuse.cpp
-#, c-format
-msgid "This electric grid stores %d kJ of electric power."
-msgstr "이 전력망은 %d kJ의 전력을 저장 중입니다."
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Generation: %s"
-msgstr ""
-"\n"
-"생산: %s"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Consumption: %s"
-msgstr ""
-"\n"
-"소비: %s"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Net: %s"
-msgstr ""
-"\n"
-"연결: %s"
-
-#. ~ %s is list of directions
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "This electric grid has connections: %s."
-msgstr "이 전력망에 다음의 연결이 존재합니다: %s."
-
-#: data/json/main.lua src/iuse.cpp
-msgid "This electric grid has no connections."
-msgstr "이 전력망에 연결이 존재하지 않습니다."
-
-#: data/json/main.lua
-msgid "Modify Grid Connections"
-msgstr "전력망 연결 변경"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Add connection in direction: %s"
-msgstr "%s 방향의 전력망 연결 추가"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Remove connection in direction: %s"
-msgstr "%s 방향의 전력망 연결 제거"
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting a grid with %d elements to a grid with %d elements."
-msgstr "전력망 (%d)과 전력망 (%d)을 연결하려 하고 있습니다."
-
-#: data/json/main.lua
-#, c-format
-msgid "You are extending a grid with %d elements."
-msgstr "전력망 (%d)을 확장하려 하고 있습니다."
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting two locations in the same grid, with %d elements."
-msgstr "동일한 전력망 (%d) 내의 두 지점을 연결하려 하고 있습니다."
-
-#: data/json/main.lua
-msgid "Error: requirement not found."
-msgstr "오류: 필요사항을 찾을 수 없습니다."
-
-#: data/json/main.lua src/iuse.cpp
-msgid "Are you sure?"
-msgstr "이대로 진행할까요?"
-
-#: data/json/main.lua
-msgid ""
-"This action will not consume any resources.\n"
-"Are you sure?"
-msgstr ""
-"이 행동은 아무 자원도 소모하지 않을 것입니다.\n"
-"이대로 진행할까요?"
-
-#: data/json/main.lua
-msgid "Failed to establish grid connection."
-msgstr "전력망 연결 생성에 실패했습니다."
-
-#: data/json/main.lua
-msgid "Grid connection established."
-msgstr "전력망 연결이 생성되었습니다."
-
-#: data/json/main.lua
-msgid "Grid connection removed."
-msgstr "전력망 연결이 제거되었습니다."
 
 #: data/json/martialarts.json
 msgid "No style"
@@ -16824,7 +16759,7 @@ msgid "Resin"
 msgstr "수지"
 
 #: data/json/materials.json data/mods/Aftershock/items/materials.json
-#: data/mods/MagicalNights/materials.json src/veh_interact.cpp
+#: data/mods/MagicalNights/materials.json src/game.cpp src/veh_interact.cpp
 msgid "dented"
 msgstr "찌그러진"
 
@@ -16866,7 +16801,8 @@ msgstr "구부러진"
 msgid "smashed"
 msgstr "거의 박살난"
 
-#: data/json/materials.json src/character.cpp src/veh_interact.cpp
+#: data/json/materials.json src/character.cpp src/game.cpp
+#: src/veh_interact.cpp
 msgid "destroyed"
 msgstr "박살난"
 
@@ -17496,7 +17432,7 @@ msgid "monster EMP Projector"
 msgid_plural "monster EMP Projectors"
 msgstr[0] "괴물 EMP 투사기"
 
-#. ~ Description for {'str': 'bio lockpick'}
+#. ~ Description for {'str': 'bionic lockpick'}
 #: data/json/monster_attacks.json data/json/items/gun/bio.json
 #: data/json/items/tool/entry_tools.json
 msgid "this a pseudo item"
@@ -18954,6 +18890,40 @@ msgid ""
 msgstr ""
 "이기 머시여?! 거 우리 무지렁뱅들야 요런 요상한 세상에 대해서는 몰르는데 하여간 으리 영주님들네 업는 의 셰상에서 사람 체악에 "
 "대격변에서 사라나마야 하겠스여!"
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Prehistoric Hunter"
+msgstr "선사시대 사냥꾼"
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Prehistoric Hunter"
+msgstr "선사시대 사냥꾼"
+
+#. ~ Profession (male Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+"당신은 선사시대에서 날려져온 살아있는 유물이며, 낯설고 무서운 세상에 떨어졌습니다. 수렵채집자 생활은 힘들었지만, 최소한 살아있는 시체와"
+" 싸울 일은 없었고, 혈족들과 늘 함께였습니다. 그런데 지금은, 당신만 홀로 남겨졌군요."
+
+#. ~ Profession (female Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+"당신은 선사시대에서 날려져온 살아있는 유물이며, 낯설고 무서운 세상에 떨어졌습니다. 수렵채집자 생활은 힘들었지만, 최소한 살아있는 시체와"
+" 싸울 일은 없었고, 혈족들과 늘 함께였습니다. 그런데 지금은, 당신만 홀로 남겨졌군요."
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -24012,6 +23982,38 @@ msgid ""
 msgstr ""
 "당신은 야생에서 수년간 시간을 보낸 긑에 대자연을 이해하기에 이르렀습니다. 다른 사람들이 알던 세상이란 것이 인간이라는 버림받은 종을 "
 "끝내버렸는지는 모르겠습니다만, 그렇다고 해서 대자연은 변하지 않겠죠."
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Wanderer"
+msgstr "방랑자"
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Wanderer"
+msgstr "방랑자"
+
+#. ~ Profession (male Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+"당신은 언제나 현대적인 삶의 복잡함보다 열린 하늘이 주는 편안함을 좋아했습니다. 보아하니 당신이 지난번 문명사회를 방문한 이후로 무언가 "
+"일이 터진 것 같습니다."
+
+#. ~ Profession (female Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+"당신은 언제나 현대적인 삶의 복잡함보다 열린 하늘이 주는 편안함을 좋아했습니다. 보아하니 당신이 지난번 문명사회를 방문한 이후로 무언가 "
+"일이 터진 것 같습니다."
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -30713,6 +30715,10 @@ msgid "Middle of Nowhere"
 msgstr "허허벌판"
 
 #: data/json/start_locations.json
+msgid "Swamp"
+msgstr "늪"
+
+#: data/json/start_locations.json
 msgid "Deserted Island"
 msgstr "버려진 섬"
 
@@ -33349,6 +33355,109 @@ msgstr "빵"
 msgid "Milk"
 msgstr "우유"
 
+#: data/json/voltmeter.lua
+msgid "Do you want to modify grid connections?"
+msgstr "전력망 연결을 변경합니까?"
+
+#: data/json/voltmeter.lua src/iexamine.cpp src/iuse.cpp
+#, c-format
+msgid "This electric grid stores %d kJ of electric power."
+msgstr "이 전력망은 %d kJ의 전력을 저장 중입니다."
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Generation: %s"
+msgstr ""
+"\n"
+"생산: %s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Consumption: %s"
+msgstr ""
+"\n"
+"소비: %s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Net: %s"
+msgstr ""
+"\n"
+"연결: %s"
+
+#. ~ %s is list of directions
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "This electric grid has connections: %s."
+msgstr "이 전력망에 다음의 연결이 존재합니다: %s."
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "This electric grid has no connections."
+msgstr "이 전력망에 연결이 존재하지 않습니다."
+
+#: data/json/voltmeter.lua
+msgid "Modify Grid Connections"
+msgstr "전력망 연결 변경"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Add connection in direction: %s"
+msgstr "%s 방향의 전력망 연결 추가"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Remove connection in direction: %s"
+msgstr "%s 방향의 전력망 연결 제거"
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting a grid with %d elements to a grid with %d elements."
+msgstr "전력망 (%d)과 전력망 (%d)을 연결하려 하고 있습니다."
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are extending a grid with %d elements."
+msgstr "전력망 (%d)을 확장하려 하고 있습니다."
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting two locations in the same grid, with %d elements."
+msgstr "동일한 전력망 (%d) 내의 두 지점을 연결하려 하고 있습니다."
+
+#: data/json/voltmeter.lua
+msgid "Error: requirement not found."
+msgstr "오류: 필요사항을 찾을 수 없습니다."
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "Are you sure?"
+msgstr "이대로 진행할까요?"
+
+#: data/json/voltmeter.lua
+msgid ""
+"This action will not consume any resources.\n"
+"Are you sure?"
+msgstr ""
+"이 행동은 아무 자원도 소모하지 않을 것입니다.\n"
+"이대로 진행할까요?"
+
+#: data/json/voltmeter.lua
+msgid "Failed to establish grid connection."
+msgstr "전력망 연결 생성에 실패했습니다."
+
+#: data/json/voltmeter.lua
+msgid "Grid connection established."
+msgstr "전력망 연결이 생성되었습니다."
+
+#: data/json/voltmeter.lua
+msgid "Grid connection removed."
+msgstr "전력망 연결이 제거되었습니다."
+
 #. ~ weapon category name
 #: data/json/weapon_categories.json
 msgid "Fist Weapons"
@@ -35604,6 +35713,20 @@ msgid ""
 "much."
 msgstr ""
 "도로를 차단하는데 쓰이는 바리케이드입니다. 이 구조물은 인접한 사수의 사격을 방해하지 않으며, 사격을 그다지 지연시키지 않습니다."
+
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid "simple wooden barricade"
+msgstr "간이 나무 바리케이드"
+
+#. ~ Description for simple wooden barricade
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid ""
+"A waist-high barricade made of stout saplings, held in place by poles "
+"hammered into the ground.  Useful to fence in a campsite and shelter a fire "
+"from the wind, or slow down intruders."
+msgstr ""
+"두툼한 묘목을 한데 묶고 바닥에 막대로 고정해 만든, 허리까지 오는 높이의 바리케이드입니다. 캠프에 두르는 울타리, 불씨가 상하지 않도록"
+" 지킬 방풍벽, 침입자를 느리게 만드는 장애물로 유용합니다."
 
 #: data/json/furniture_and_terrain/furniture-barriers.json
 msgid "earthbag barricade"
@@ -39346,6 +39469,30 @@ msgstr "파티션"
 msgid "A tall piece of furniture used to divide rooms into separate areas."
 msgstr "방을 여러 구획으로 나누는데 쓰이는 훤칠한 높이의 가구입니다."
 
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid "tarp lean-to"
+msgstr "방수포 피난처"
+
+#. ~ Description for tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid ""
+"A small shelter covered by waterproof tarp, that can be used to take refuge "
+"from the elements."
+msgstr "방수포로 덮은 작은 피난처입니다. 거친 날씨를 피하는데 쓸 수 있습니다."
+
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid "leather tarp lean-to"
+msgstr "가죽 타프 피난처"
+
+#. ~ Description for leather tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"A makeshift shelter made from a lather tarp and stakes driven into the "
+"ground."
+msgstr "가죽 타프와 말뚝으로 만든 간이 피난처입니다."
+
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/furniture_and_terrain/terrain-mechanisms.json
 msgid "broken console"
@@ -39513,6 +39660,17 @@ msgstr "점토 가마"
 #: data/json/furniture_and_terrain/furniture-tools.json
 msgid "A kiln designed to bake clay pottery and bricks."
 msgstr "점토로 도자기와 벽돌을 굽는데 쓰이는 가마입니다."
+
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid "charcoal purifier"
+msgstr "목탄 정수기"
+
+#. ~ Description for charcoal purifier
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid ""
+"A makeshift filter constructed to hold a supply of charcoal, for purifying "
+"water."
+msgstr "목탄을 이용해 만든 간이 정수용 필터입니다."
 
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/items/tool/misc.json
@@ -43937,17 +44095,6 @@ msgid ""
 msgstr "솔잎으로 덮은 작은 피난처입니다. 거친 날씨를 피하는데 쓸 수 있습니다."
 
 #: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid "tarp lean-to"
-msgstr "방수포 피난처"
-
-#. ~ Description for tarp lean-to
-#: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid ""
-"A small shelter covered by waterproof tarp, that can be used to take refuge "
-"from the elements."
-msgstr "방수포로 덮은 작은 피난처입니다. 거친 날씨를 피하는데 쓸 수 있습니다."
-
-#: data/json/furniture_and_terrain/terrain-manufactured.json
 msgid "unfinished niter bed"
 msgstr "미완성된 초석 재배지"
 
@@ -47420,6 +47567,49 @@ msgid ""
 "harder than any old pebble."
 msgstr "조그마한 납 탄환입니다. 보통 슬링을 이용해 쏘고, 평범한 자갈에 비해 훨씬 강합니다."
 
+#: data/json/items/ammo.json
+msgid "wooden atlatl dart"
+msgid_plural "wooden atlatl darts"
+msgstr[0] "나무 아틀라틀 다트"
+
+#. ~ Description for {'str': 'wooden atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a fire-hardened sharpened "
+"point."
+msgstr "투창기에 쓰이는 길고 유연한 다트입니다. 불에 달궈 단단하게 만든 예리한 촉이 달려있습니다."
+
+#: data/json/items/ammo.json
+msgid "iron atlatl dart"
+msgid_plural "iron atlatl darts"
+msgstr[0] "강철 아틀라틀 다트"
+
+#. ~ Description for {'str': 'iron atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with an iron spear point."
+msgstr "투창기에 쓰이는 길고 유연한 다트입니다. 강철 창끝이 달려있습니다."
+
+#: data/json/items/ammo.json
+msgid "stone atlatl dart"
+msgid_plural "stone atlatl darts"
+msgstr[0] "돌 아틀라틀 다트"
+
+#. ~ Description for {'str': 'stone atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a small stone spearhead."
+msgstr "투창기에 쓰이는 길고 유연한 다트입니다. 작은 돌 창끝이 달려있습니다."
+
+#: data/json/items/ammo.json
+msgid "copper atlatl dart"
+msgid_plural "copper atlatl darts"
+msgstr[0] "구리 아틀라틀 다트"
+
+#. ~ Description for {'str': 'copper atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with a copper spear point."
+msgstr "투창기에 쓰이는 길고 유연한 다트입니다. 구리 창끝이 달려있습니다."
+
 #: data/json/items/ammo_types.json
 msgid ".50 BMG"
 msgstr ".50 BMG"
@@ -47451,6 +47641,10 @@ msgstr "볼트"
 #: data/json/items/ammo_types.json
 msgid "arrows"
 msgstr "화살"
+
+#: data/json/items/ammo_types.json
+msgid "atlatl dart"
+msgstr "아틀라틀 다트"
 
 #: data/json/items/ammo_types.json
 msgid "pebbles"
@@ -48100,7 +48294,7 @@ msgstr[0] "CBM:능동형 방호 시스템"
 #: data/json/items/bionics.json
 msgid "Thermofluidic Propulsion Modules CBM"
 msgid_plural "Thermofluidic Propulsion Modules CBMs"
-msgstr[0] "열유체 추진 모듈 CBM"
+msgstr[0] "CBM:열유체 추진 모듈"
 
 #. ~ Description for {'str': 'Thermofluidic Propulsion Modules CBM'}
 #: data/json/items/bionics.json
@@ -60547,7 +60741,7 @@ msgstr[0] "화살통"
 msgid ""
 "A leather quiver worn at the waist that can hold 20 arrows.  Activate to "
 "store arrows."
-msgstr "허리에 매는 가죽 화살통. 사용키를 눌러 최대 20발의 화살을 담을 수 있습니다."
+msgstr "허리에 착용하는 가죽 화살통입니다. 사용하여 화살을 20발까지 담을 수 있습니다."
 
 #: data/json/items/armor/ammo_pouch.json
 #: data/mods/MagicalNights/items/armor.json
@@ -60560,7 +60754,7 @@ msgstr[0] "자작나무 화살통"
 msgid ""
 "A quiver woven from strips of birch bark, worn at the waist, that can hold "
 "20 arrows.  Activate to store arrows."
-msgstr "자작나무 껍질을 엮어만든 허리에 메는 화살통. 사용키를 눌러 최대 20발의 화살을 담을 수 있습니다."
+msgstr "허리에 착용하는 자작나무 껍질 화살통입니다. 사용하여 화살을 20발까지 담을 수 있습니다."
 
 #: data/json/items/armor/ammo_pouch.json
 #: data/mods/MagicalNights/items/armor.json
@@ -60590,6 +60784,32 @@ msgid ""
 "A large quiver woven from strips of birchbark, worn on the back, that can "
 "hold 60 arrows.  Activate to store arrows."
 msgstr "자작나무 껍질을 엮어만든 등에 메는 대형 화살통. 사용키를 눌러 최대 60발의 화살을 담을 수 있습니다."
+
+#: data/json/items/armor/ammo_pouch.json
+msgid "atlatl dart quiver"
+msgid_plural "atlatl dart quivers"
+msgstr[0] "아틀라틀 다트 화살통"
+
+#. ~ Description for {'str': 'atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A leather quiver worn at the waist, lengthened to hold atlatl darts.  "
+"Activate to store up to 15 darts."
+msgstr ""
+"허리에 착용하는, 아틀라틀 다트를 담을 수 있도록 길이를 늘린 가죽 화살통입니다. 사용하여 다트를 15발까지 담을 수 있습니다."
+
+#: data/json/items/armor/ammo_pouch.json
+msgid "birchbark atlatl dart quiver"
+msgid_plural "birchbark atlatl dart quivers"
+msgstr[0] "자작나무 아틀라틀 다트 화살통"
+
+#. ~ Description for {'str': 'birchbark atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A quiver woven from strips of birch bark, worn at the waist, lengthened to "
+"hold atlatl darts.  Activate to store up to 15 darts."
+msgstr ""
+"허리에 착용하는, 아틀라틀 다트를 담을 수 있도록 길이를 늘린 자작나무 껍질 화살통입니다. 사용하여 다트를 15발까지 담을 수 있습니다."
 
 #: data/json/items/armor/ammo_pouch.json
 msgid "tac vest"
@@ -71221,6 +71441,20 @@ msgstr ""
 "수납할 수 있습니다."
 
 #: data/json/items/armor/sheath.json
+msgid "birchbark sheath"
+msgid_plural "birchbark sheathes"
+msgstr[0] "자작나무 검집"
+
+#. ~ Description for {'str': 'birchbark sheath', 'str_pl': 'birchbark
+#. sheathes'}
+#: data/json/items/armor/sheath.json
+msgid ""
+"A hand made sheath made from birch bark, for holding knives and other small "
+"blades.  Activate to sheathe/draw a weapon."
+msgstr ""
+"나이프를 비롯한 작은 날붙이들을 담아둘 수 있는 자작나무 껍질로 만든 수제 검집입니다. 사용하여 무기를 뽑거나 수납할 수 있습니다."
+
+#: data/json/items/armor/sheath.json
 msgid "spear strap"
 msgid_plural "spear straps"
 msgstr[0] "창걸이 끈"
@@ -71979,6 +72213,18 @@ msgid "Hand made straw basket.  Carry it with you for extra storage."
 msgstr "수제 짚단 바구니. 추가적인 저장수단으로 가지고 다닐 수 있습니다."
 
 #: data/json/items/armor/storage.json
+msgid "pack basket"
+msgid_plural "pack baskets"
+msgstr[0] "배낭 바구니"
+
+#. ~ Description for {'str': 'pack basket'}
+#: data/json/items/armor/storage.json
+msgid ""
+"A large hand made straw basket, with shoulder straps to wear like a "
+"backpack."
+msgstr "어깨끈을 달아 배낭처럼 착용할 수 있게 만든 커다란 수제 지푸라기 바구니입니다."
+
+#: data/json/items/armor/storage.json
 msgid "suitcase"
 msgid_plural "suitcases"
 msgstr[0] "여행 가방"
@@ -72560,7 +72806,7 @@ msgstr ""
 #: data/json/items/armor/suits_protection.json
 msgid "hazmat suit"
 msgid_plural "hazmat suits"
-msgstr[0] "화생방 슈트"
+msgstr[0] "화생방 방호복"
 
 #. ~ Description for {'str': 'hazmat suit'}
 #: data/json/items/armor/suits_protection.json
@@ -79754,6 +80000,7 @@ msgid_plural "base slings"
 msgstr[0] "기초 슬링"
 
 #: data/json/items/classes/range.json data/json/items/gun/monster_gun.json
+#: data/json/items/ranged/slings.json
 #: data/mods/lethal_zeds/monster_overwrites.json
 msgctxt "gun_type_type"
 msgid "throw"
@@ -102147,6 +102394,37 @@ msgstr ""
 "언옵테늄 SP-1 부품의 부족으로 신뢰성과 정확도는 크게 떨어집니다."
 
 #: data/json/items/gunmod/mechanism.json
+msgid "universal auto link"
+msgid_plural "universal auto links"
+msgstr[0] "범용 자동사격 링크"
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A crude, adjustable link and modified disconnector intended to defeat a "
+"rifle's semi-auto fire control group.  When carefully fitted, it turns many "
+"semiautomatic rifles into full-auto only, at the cost of reliability and "
+"accuracy."
+msgstr ""
+"소총의 반자동 사격 통제 장치를 무력화시키기 위해 만들어진, 조잡하고 조절 가능한 링크 및 개조된 격발 차단기입니다. 조심스럽게 장착하면"
+" 여러 반자동 소총을 완전 자동 사격 전용으로 전환할 수 있지만, 이 과정에서 신뢰성 및 명중률이 감소합니다."
+
+#: data/json/items/gunmod/mechanism.json
+msgid "universal automatic conversion kit"
+msgid_plural "universal automatic conversion kits"
+msgstr[0] "범용 자동화기 전환도구"
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A collection of oversized, semi-finished fire-control parts, gauges, and "
+"springs meant to be hand-fitted to a wide range of semiautomatic rifles.  "
+"When successfully installed it provides burst and full-auto fire, but the "
+"compromises required for a one-size-fits-many kit reduce precision."
+msgstr ""
+"다양한 종류의 반자동 소총에 손수 맞춰 장착하도록 준비된, 지나치게 크고 반가공 상테인 사격 통제 부품, 게이지, 스프링들을 한데 모은 "
+"묶음입니다. 총기에 설치되면 점사 및 완전 자동 사격이 가능해지지만, 여러 총기에 호환되도록 만드는 과정에서 선택한 타협으로 인해 "
+"정밀도가 감소합니다."
+
+#: data/json/items/gunmod/mechanism.json
 msgid "glock switch"
 msgid_plural "glock switchs"
 msgstr[0] "글록 스위치"
@@ -102902,7 +103180,7 @@ msgid ""
 "precision they are slow to equip and usable only on certain mountable "
 "surfaces such as window frames and mounds of dirt."
 msgstr ""
-"양각대는 소총과 기관총에 흔히 장작되어 전방 지지대 역할 및 진도 감소 역할을 수행합니다. 반동 제어 성능과 정밀도가 크게 향상되지만, "
+"양각대는 소총과 기관총에 흔히 장착되어 전방 지지대 역할 및 진동 감소 역할을 수행합니다. 반동 제어 성능과 정밀도가 크게 향상되지만, "
 "창틀이나 흙무덤 같은 튼튼한 표면에만 놓을 수 있고 총기를 손에 드는데 시간이 오래 걸리게 된다는 단점이 있습니다."
 
 #: data/json/items/gunmod/underbarrel.json
@@ -102918,7 +103196,7 @@ msgid ""
 "surfaces such as window frames and mounds of dirt.  This one was modified "
 "and customized to mount on pretty much any weapon, if you so want."
 msgstr ""
-"양각대는 소총과 기관총에 흔히 장작되어 전방 지지대 역할 및 진도 감소 역할을 수행합니다. 반동 제어 성능과 정밀도가 크게 향상되지만, "
+"양각대는 소총과 기관총에 흔히 장착되어 전방 지지대 역할 및 진동 감소 역할을 수행합니다. 반동 제어 성능과 정밀도가 크게 향상되지만, "
 "창틀이나 흙무덤 같은 튼튼한 표면에만 놓을 수 있고 총기를 손에 드는데 시간이 오래 걸리게 된다는 단점이 있습니다. 이 양각대는 특별히 "
 "개조되어, 당신이 원하는 아무 무기에든 장착할 수 있습니다. 꼭 그러고 싶다면요."
 
@@ -107014,6 +107292,26 @@ msgid ""
 msgstr "무쇠 촉이 달린 나무 투창입니다. 손잡이 부분은 미끄러지지 않게 무늬를 새기고 덮개를 씌웠습니다."
 
 #: data/json/items/melee/spears_and_polearms.json
+msgid "stone javelin"
+msgid_plural "stone javelins"
+msgstr[0] "돌 자벨린"
+
+#. ~ Description for {'str': 'stone javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A throwing spear with a stone spearhead."
+msgstr "돌 창날을 붙인 투창입니다."
+
+#: data/json/items/melee/spears_and_polearms.json
+msgid "copper javelin"
+msgid_plural "copper javelins"
+msgstr[0] "구리 자벨린"
+
+#. ~ Description for {'str': 'copper javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A copper-tipped throwing spear."
+msgstr "구리 창날을 붙인 투창입니다."
+
+#: data/json/items/melee/spears_and_polearms.json
 msgctxt "weapon"
 msgid "wooden pike"
 msgid_plural "wooden pikes"
@@ -109829,6 +110127,19 @@ msgstr ""
 " 장전할 수 있습니다."
 
 #: data/json/items/ranged/crossbows.json
+msgid "makeshift crossbow"
+msgid_plural "makeshift crossbows"
+msgstr[0] "간이 쇠뇌"
+
+#: data/json/items/ranged/crossbows.json
+msgid ""
+"A simple, handmade crossbow of the Skane style, with a wooden peg that is "
+"pushed up from underneath to loose the bowstring.  Not as powerful as other "
+"crossbow designs, but it is easier to draw the bow back.  Bolts fired from "
+"this weapon have a good chance of remaining intact for re-use."
+msgstr ""
+
+#: data/json/items/ranged/crossbows.json
 msgid "pistol crossbow"
 msgid_plural "pistol crossbows"
 msgstr[0] "권총형 쇠뇌"
@@ -110101,6 +110412,17 @@ msgstr ""
 "스테로이드 맞은 새총과 탄궁 사이의 어딘가에 위치한 이 장비는 어깨에 메고 사용하며, 고탄성 밴드 여러 개를 팽팽하게 당길 수 있도록 "
 "윈치가 달려있습니다. 평범한 새총으로 쏘는 자갈보다 훨씬 커다란 바위를 더 멀리, 더 강하게 쏘아낼 수 있습니다. 체력이 높으면 더 "
 "빠르게 재장전할 수 있습니다."
+
+#: data/json/items/ranged/slings.json
+msgid "atlatl"
+msgid_plural "atlatls"
+msgstr[0] "아틀라틀"
+
+#: data/json/items/ranged/slings.json
+msgid ""
+"A wooden tool for supporting a javelin, to throw it more effectively than by"
+" hand."
+msgstr "자벨린을 손으로 던질 때보다 더 효과적으로 투척하는데 쓰이는 나무 도구입니다."
 
 #: data/json/items/ranged/spearguns.json
 msgid "wooden fishing spear"
@@ -112940,8 +113262,8 @@ msgstr ""
 "기술이 필수적입니다. 몸을 숙인 상태로 잠긴 문을 조사하면 쇠지레를 사용하는 것보다 자물쇠를 따는 것을 우선시할 것입니다."
 
 #: data/json/items/tool/entry_tools.json
-msgid "bio lockpick"
-msgid_plural "bio lockpicks"
+msgid "bionic lockpick"
+msgid_plural "bionic lockpicks"
 msgstr[0] "바이오닉 락픽"
 
 #: data/json/items/tool/explosives.json
@@ -120674,6 +120996,18 @@ msgstr[0] "배선된 금속판"
 #: data/json/items/vehicle/plating.json
 msgid "Sheet metal that has had light housing wired into it."
 msgstr "내부에 조명이 연결된 금속판."
+
+#: data/json/items/vehicle/plating.json
+msgid "aluminum sheet"
+msgid_plural "aluminum sheets"
+msgstr[0] "알루미늄 판"
+
+#. ~ Description for {'str': 'aluminum sheet'}
+#: data/json/items/vehicle/plating.json
+msgid ""
+"A thin sheet of aluminum, usable for lightweight car body panels or to keep "
+"a boat afloat."
+msgstr "경량형 차량 차체 패널을 만들거나 배의 부력을 마련하는데 쓰이는 얇은 알루미늄 판입니다."
 
 #: data/json/items/vehicle/plating.json
 msgid "wooden armor kit"
@@ -186380,6 +186714,14 @@ msgid ""
 msgstr "절반 높이의 금속 벽입니다. 좀비들이 차량에 들어오는 것을 막지만 시야를 차단하지는 않습니다."
 
 #: data/json/vehicleparts/boards.json
+msgid "aluminum board"
+msgstr "알루미늄 보드"
+
+#: data/json/vehicleparts/boards.json
+msgid "aluminum quarterpanel"
+msgstr "알루미늄 쿼터패널"
+
+#: data/json/vehicleparts/boards.json
 msgid "stow board"
 msgstr "수납장"
 
@@ -188213,6 +188555,15 @@ msgid ""
 "A light weight, advanced carbon fiber rigid sheet that keeps the water out "
 "of your boat."
 msgstr "당신의 배에 물이 들어오는 것을 막아주는 가벼운 첨단 탄소 섬유로 된 튼튼한 판입니다."
+
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "aluminum boat hull"
+msgstr "알루미늄 보트 선체"
+
+#. ~ Description for {'str': 'aluminum boat hull'}
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "A rigid aluminum sheet that keeps water out of your boat."
+msgstr "당신의 배에 물이 들어오는 것을 막아주는 튼튼한 알루미늄 판입니다."
 
 #. ~ Description for {'str': 'hovercraft impeller'}
 #: data/json/vehicleparts/vehicle_parts.json
@@ -227323,10 +227674,10 @@ msgstr ""
 msgid ""
 "Welcome to e-book library!\n"
 "This device currently holds %d book(s).\n"
-"Network sync unavilable."
+"Network sync unavailable."
 msgstr ""
 "전자책 도서관에 오신 것을 환영합니다!\n"
-"이 장치에 현재 책 %d권이 저장되어있습니다.\n"
+"이 장치에 현재 책 %d권이 저장되어 있습니다.\n"
 "네트워크 동기화를 이용할 수 없습니다."
 
 #: data/mods/ebook_lua/main.lua
@@ -227334,7 +227685,7 @@ msgid "Scan book(s)"
 msgstr "책 스캔"
 
 #: data/mods/ebook_lua/main.lua
-msgid "Scans all the book you have. It will progress instantly."
+msgid "Scan all the books you have. It will progress instantly."
 msgstr "현재 가진 책 전체를 스캔합니다. 즉시 실행됩니다."
 
 #: data/mods/ebook_lua/main.lua
@@ -229867,10 +230218,22 @@ msgstr ""
 "상징합니다. 무한 표식은 자폐 및 신경다양성 공동체에서 널리 사용되어온 상징입니다."
 
 #: data/mods/pride_flags/modinfo.json
-msgid "Pride Flags for BN"
-msgstr "밝은밤용 자긍심 깃발"
+msgid ""
+"<color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>"
+" "
+"<color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>"
+" <color_blue>f</color><color_magenta>o</color><color_red>r</color> "
+"<color_pink>B</color><color_yellow>N</color>"
+msgstr ""
+"<color_red>자</color><color_pink>긍</color><color_yellow>심</color> "
+"<color_green>깃</color><color_blue>발</color> <color_magenta>-</color> "
+"<color_red>밝</color><color_pink>은</color><color_yellow>밤</color><color_green>용</color>"
 
-#. ~ Description for Pride Flags for BN
+#. ~ Description for
+#. <color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>
+#. <color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>
+#. <color_blue>f</color><color_magenta>o</color><color_red>r</color>
+#. <color_pink>B</color><color_yellow>N</color>
 #: data/mods/pride_flags/modinfo.json
 msgid "Pride flags for Bright Nights, for all your roleplaying needs."
 msgstr "밝은밤에 자긍심 깃발을 추가합니다. 롤플레이에 사용하세요."
@@ -231417,6 +231780,15 @@ msgstr "공간이동"
 #: data/mods/teleportation_mod/modinfo.json
 msgid "Add craftable and buildable teleporters."
 msgstr "제작 및 설치할 수 있는 공간이동 장치를 추가합니다."
+
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test Lua Require"
+msgstr "실험적 루아 필요"
+
+#. ~ Description for Test Lua Require
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test mod for Lua relative and absolute imports"
+msgstr "루아 관련사항 및 완벽한 들여오기를 위한 실험적 모드입니다."
 
 #: data/mods/underground_dynamic_temperature/modinfo.json
 msgid "Underground Dynamic Temperature"
@@ -233277,6 +233649,10 @@ msgstr "영역 비활성"
 #: data/raw/keybindings/keybindings.json
 msgid "Show all zones / hide distant zones"
 msgstr "모든 영역 보이기 / 먼 곳의 영역 숨기기"
+
+#: data/raw/keybindings/keybindings.json src/debug_menu.cpp
+msgid "Toggle zone overlay"
+msgstr "구역 오버레이 설정"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Select left inventory"
@@ -237085,11 +237461,11 @@ msgstr "<S>witch"
 msgid "Discover more special encounters to populate this list"
 msgstr "이 목록을 채우기 위하여 더 특별한 만남을 발견하십시오."
 
-#: src/auto_note.cpp src/editmap.cpp
+#: src/auto_note.cpp src/editmap.cpp src/game.cpp
 msgid "no"
 msgstr "안 돼"
 
-#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp
+#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp src/game.cpp
 msgid "yes"
 msgstr "가능"
 
@@ -244318,10 +244694,6 @@ msgid "Toggle display submap grid"
 msgstr "서브맵 그리드 표시 활성화/비활성화"
 
 #: src/debug_menu.cpp
-msgid "Toggle zone overlay"
-msgstr "구역 오버레이 설정"
-
-#: src/debug_menu.cpp
 msgid "Set automove target"
 msgstr "자동이동 대상 설정"
 
@@ -246494,6 +246866,25 @@ msgstr "%1$s"
 msgid "You're caught in the explosion!"
 msgstr "폭발에 휘말렸습니다!"
 
+#. ~ %1$s: entity dealing damage, %2$s: target creature name, %3$d: damage
+#. value
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s for %3$d damage!"
+msgstr "%1$s(이)가 날아들어 %2$s에게 적중해 %3$d 피해를 입힙니다!"
+
+#. ~ %1$s: entity dealing damage, %2$s: target creature name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s but deals no damage."
+msgstr "%1$s(이)가 날아들어 %2$s에게 적중했지만 피해를 입히지 못했습니다."
+
+#. ~ %1$s: item name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and smashes into something!"
+msgstr "%1$s(이)가 날아들어 무언가에 부딪힙니다!"
+
 #: src/explosion.cpp
 msgid "a huge explosion!"
 msgstr "엄청나게 큰 폭발!"
@@ -246894,7 +247285,7 @@ msgstr "당신과 동료 모두 라디오가 필요합니다"
 msgid "Within interaction range"
 msgstr "상호작용 범위 안"
 
-#: src/faction.cpp
+#: src/faction.cpp src/game.cpp
 msgid "Status: "
 msgstr "상태: "
 
@@ -247848,6 +248239,10 @@ msgid "<M>ap"
 msgstr "<M>지도"
 
 #: src/game.cpp
+msgid "<O> - Toggle Overlays"
+msgstr "<O> - 오버레이 설정"
+
+#: src/game.cpp
 msgid "Zones manager"
 msgstr "영역 관리자"
 
@@ -247956,9 +248351,94 @@ msgstr "<+/->우선도"
 msgid "<T>ravel to"
 msgstr "[<T>] 다음 장소로 이동"
 
+#: src/game.cpp src/veh_interact.cpp
+msgid "like new"
+msgstr "새 것 같음"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "battered"
+msgstr "너덜너덜"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "wrecked"
+msgstr "심하게 망가진"
+
 #: src/game.cpp
-msgid "You don't see any items or monsters around you!"
-msgstr "주변에서 어떤 물품이나 적도 찾을 수 없습니다!"
+msgid "Vehicles"
+msgstr "차량"
+
+#: src/game.cpp
+msgid "You don't see any vehicles around you!"
+msgstr "주변에 어떤 차량도 보이지 않습니다!"
+
+#: src/game.cpp
+#, c-format
+msgid "%d %s"
+msgstr "%d %s"
+
+#: src/game.cpp
+#, c-format
+msgid "Engine: %s"
+msgstr "엔진: %s"
+
+#: src/game.cpp
+msgid "off"
+msgstr "작동중지"
+
+#: src/game.cpp
+msgid "on"
+msgstr "작동"
+
+#: src/game.cpp
+#, c-format
+msgid "Moving: %s"
+msgstr "이동: %s"
+
+#: src/game.cpp
+msgid "This vehicle has enough wheels."
+msgstr "이 차량에 바퀴가 충분합니다."
+
+#: src/game.cpp
+msgid "This vehicle does not have enough wheels."
+msgstr "이 차량에 바퀴가 부족합니다."
+
+#: src/game.cpp
+#, c-format
+msgid "%s / %s %s"
+msgstr "%s / %s %s"
+
+#: src/game.cpp
+msgid "This vehicle is leaking fuel."
+msgstr "이 차량에서 연료가 새고 있습니다."
+
+#: src/game.cpp
+#, c-format
+msgid "Floats: %s"
+msgstr "부력: %s"
+
+#: src/game.cpp
+msgid "Speed: "
+msgstr "속도: "
+
+#: src/game.cpp
+msgid "Engine: "
+msgstr "엔진: "
+
+#: src/game.cpp
+msgid "Cargo: "
+msgstr "화물: "
+
+#: src/game.cpp
+msgid "This vehicle can float."
+msgstr "이 차량은 뜰 수 있습니다."
+
+#: src/game.cpp
+msgid "This vehicle can't float."
+msgstr "이 차량은 뜰 수 없습니다."
+
+#: src/game.cpp
+msgid "You don't see any items, monsters, or vehicles around you!"
+msgstr "주변에 물품, 괴물, 차량이 보이지 않습니다!"
 
 #: src/game.cpp
 msgctxt "list items"
@@ -273719,6 +274199,16 @@ msgstr ""
 "수 있습니다."
 
 #: src/options.cpp
+msgid "Item damage on flying impact"
+msgstr "날아다니는 물건 충돌 피해"
+
+#: src/options.cpp
+msgid ""
+"If true, items flung by explosions will deal (lethal) damage to whatever "
+"they hit."
+msgstr "활성화되면 폭발에 의해 날려진 물건이 부딪힌 대상에게 (치명적인) 피해를 입힙니다."
+
+#: src/options.cpp
 msgid "Old explosions system"
 msgstr "구형 폭발 체계 사용"
 
@@ -273857,6 +274347,14 @@ msgstr "차량 문 자물쇠"
 #: src/options.cpp
 msgid "Determines if new vehicles can spawn with locked doors."
 msgstr "차량 문이 잠긴 채로 생성될 수 있는지 설정합니다."
+
+#: src/options.cpp
+msgid "Vehicle spawn rate scaling factor"
+msgstr "차량 생성 계수"
+
+#: src/options.cpp
+msgid "A scaling factor that determines density of vehicle spawns."
+msgstr "차량 생성 밀도를 설정합니다. 높을수록 많아집니다."
 
 #: src/options.cpp
 msgid "Spawn rate scaling factor"
@@ -274886,15 +275384,19 @@ msgstr "색 코드: "
 
 #: src/overmap_ui.cpp
 msgid "Type GLYPH:TEXT to set a custom glyph."
-msgstr "타입 상형 문자:TEXT를 입력하여 사용자 정의 상형문자를 설정."
+msgstr "상징문자:텍스트를 입력하여 사용자 정의 상징문자를 설정할 수 있습니다."
 
 #: src/overmap_ui.cpp
 msgid "Type COLOR;TEXT to set a custom color."
-msgstr "타입 컬러;TEXT를 입력하여 사용자 정의 색상을 설정."
+msgstr "색상;텍스트를 입력하여 해당 문구에 사용할 사용자 정의 색상을 설정할 수 있습니다."
 
 #: src/overmap_ui.cpp
-msgid "Examples: B:Base | g;Loot | !:R;Minefield"
-msgstr "예시: B:거점 | g;Loot | !:R:지뢰밭"
+msgid "Type SPRITE:TILE_ID to set a custom sprite."
+msgstr "SPRITE:타일 아이디를 입력하여 해당 타일에 사용할 사용자 정의 스프라이트를 설정할 수 있습니다."
+
+#: src/overmap_ui.cpp
+msgid "Examples: B:Base | g;Loot | SPRITE:toolbox;g;Tools"
+msgstr "예시: B:거점 | g:수집품 | SPRITE:toolbox;g;도구"
 
 #: src/overmap_ui.cpp
 msgid "Note:"
@@ -279584,18 +280086,6 @@ msgstr "전력량"
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "엔진 출력: <color_light_gray>%+8d</color>"
-
-#: src/veh_interact.cpp
-msgid "like new"
-msgstr "새 것 같음"
-
-#: src/veh_interact.cpp
-msgid "battered"
-msgstr "너덜너덜"
-
-#: src/veh_interact.cpp
-msgid "wrecked"
-msgstr "심하게 망가진"
 
 #: src/veh_interact.cpp
 msgid "Select tank to siphon:"

@@ -9,15 +9,15 @@
 # hiro9888 <hiro9888@gmail.com>, 2025
 # 嘿咻大侠, 2025
 # H_Hedgehog, 2025
-# Coolthulhu <Coolthulhu@gmail.com>, 2025
 # HuanSen233, 2026
 # Jeremy Wu <jeremy7986111@yahoo.com.tw>, 2026
+# Coolthulhu <Coolthulhu@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-bn\n"
-"POT-Creation-Date: 2026-01-04 15:01+0000\n"
-"Last-Translator: Jeremy Wu <jeremy7986111@yahoo.com.tw>, 2026\n"
+"POT-Creation-Date: 2026-01-11 03:04+0000\n"
+"Last-Translator: Coolthulhu <Coolthulhu@gmail.com>, 2026\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/bn-team/teams/113585/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4953,6 +4953,10 @@ msgid "Build Clay Kiln"
 msgstr "建造砖窑"
 
 #: data/json/construction_group.json
+msgid "Build Charcoal Purifier"
+msgstr ""
+
+#: data/json/construction_group.json
 msgid "Build Coat Rack"
 msgstr "建造衣帽架"
 
@@ -5269,6 +5273,10 @@ msgid "Build Road Barricade"
 msgstr "建造路障"
 
 #: data/json/construction_group.json
+msgid "Build Simple Wooden Barricade"
+msgstr ""
+
+#: data/json/construction_group.json
 msgid "Build Rock Forge"
 msgstr "建造石头熔炉"
 
@@ -5379,6 +5387,10 @@ msgstr "建造桌子"
 #: data/json/construction_group.json
 msgid "Build Tarp Lean-To"
 msgstr "搭建防水帆布棚屋"
+
+#: data/json/construction_group.json
+msgid "Build Leather Tarp Lean-To"
+msgstr ""
 
 #: data/json/construction_group.json
 msgid "Build Thatched Roof Over Dirt Floor"
@@ -11554,6 +11566,13 @@ msgstr ""
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
 msgid ""
+"This thrown item <info>flies straight</info> without rotating in the air, "
+"maintaining its aerodynamic orientation."
+msgstr "该投掷物在空中<info>直线飞行</info>且不旋转，以保持其气动姿态。"
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: data/json/flags.json
+msgid ""
 "This weapon <good>can shoot underwater</good>, but <info>unless it was "
 "specifically designed to do so</info>, it <bad>will suffer from accuracy "
 "penalty</bad>."
@@ -12668,6 +12687,10 @@ msgstr "穿戴物品"
 msgid "WEAPON HELD"
 msgstr "手持武器"
 
+#: data/json/item_category.json
+msgid "USABLE BIONICS"
+msgstr "可用生化插件"
+
 #: data/json/legacy_artifact_active.json
 msgid "Artifact Adrenaline"
 msgstr "神器肾上腺素"
@@ -13773,109 +13796,6 @@ msgid ""
 "Items in this zone will be automatically consumed during a long activity if "
 "you get thirsty."
 msgstr "如果你在长时间的活动中渴了，会自动饮用这个区域的物品。"
-
-#: data/json/main.lua
-msgid "Do you want to modify grid connections?"
-msgstr "您想要修改电网连接吗？"
-
-#: data/json/main.lua src/iexamine.cpp src/iuse.cpp
-#, c-format
-msgid "This electric grid stores %d kJ of electric power."
-msgstr "该电网储存了%dkJ的电力。"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Generation: %s"
-msgstr ""
-"\n"
-"发电量：%s"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Consumption: %s"
-msgstr ""
-"\n"
-"耗电量：%s"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Net: %s"
-msgstr ""
-"\n"
-"结余：%s"
-
-#. ~ %s is list of directions
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "This electric grid has connections: %s."
-msgstr "该电网已连接至：%s。"
-
-#: data/json/main.lua src/iuse.cpp
-msgid "This electric grid has no connections."
-msgstr "该电网没有任何连接"
-
-#: data/json/main.lua
-msgid "Modify Grid Connections"
-msgstr "修改电网连接"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Add connection in direction: %s"
-msgstr "添加连接至方向：%s"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Remove connection in direction: %s"
-msgstr "移除连接至方向：%s"
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting a grid with %d elements to a grid with %d elements."
-msgstr "您正将一个包含 %d 个元件的电网连接至另一个包含 %d 个元件的电网。"
-
-#: data/json/main.lua
-#, c-format
-msgid "You are extending a grid with %d elements."
-msgstr "您正在扩展一个包含 %d 个元件的电网。"
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting two locations in the same grid, with %d elements."
-msgstr "您正在连接同一电网中的两个位置（包含 %d 个元件）。"
-
-#: data/json/main.lua
-msgid "Error: requirement not found."
-msgstr "错误：未找到必要条件。"
-
-#: data/json/main.lua src/iuse.cpp
-msgid "Are you sure?"
-msgstr "你确定吗？"
-
-#: data/json/main.lua
-msgid ""
-"This action will not consume any resources.\n"
-"Are you sure?"
-msgstr ""
-"此操作不会消耗任何资源。\n"
-"确定要继续吗？"
-
-#: data/json/main.lua
-msgid "Failed to establish grid connection."
-msgstr "无法建立电网连接。"
-
-#: data/json/main.lua
-msgid "Grid connection established."
-msgstr "电网连接已建立。"
-
-#: data/json/main.lua
-msgid "Grid connection removed."
-msgstr "电网连接已移除。"
 
 #: data/json/martialarts.json
 msgid "No style"
@@ -16358,7 +16278,7 @@ msgid "Resin"
 msgstr "树脂"
 
 #: data/json/materials.json data/mods/Aftershock/items/materials.json
-#: data/mods/MagicalNights/materials.json src/veh_interact.cpp
+#: data/mods/MagicalNights/materials.json src/game.cpp src/veh_interact.cpp
 msgid "dented"
 msgstr "凹损"
 
@@ -16400,7 +16320,8 @@ msgstr "扭曲"
 msgid "smashed"
 msgstr "砸扁"
 
-#: data/json/materials.json src/character.cpp src/veh_interact.cpp
+#: data/json/materials.json src/character.cpp src/game.cpp
+#: src/veh_interact.cpp
 msgid "destroyed"
 msgstr "毁坏"
 
@@ -17030,7 +16951,7 @@ msgid "monster EMP Projector"
 msgid_plural "monster EMP Projectors"
 msgstr[0] "怪物EMP投射器"
 
-#. ~ Description for {'str': 'bio lockpick'}
+#. ~ Description for {'str': 'bionic lockpick'}
 #: data/json/monster_attacks.json data/json/items/gun/bio.json
 #: data/json/items/tool/entry_tools.json
 msgid "this a pseudo item"
@@ -18433,6 +18354,38 @@ msgid ""
 "witnessed sithen that deluge Noe rood out in his greet schippe."
 msgstr ""
 "我的天！你对这个陌生的地方还有带你来到这的法术一无所知！这种情况下你只能破罐破摔采取新的生活方式才能抗过那场诺亚乘坐方舟躲过的大洪水以来人类最大的灾难。"
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Prehistoric Hunter"
+msgstr "史前猎手"
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Prehistoric Hunter"
+msgstr "史前女猎手"
+
+#. ~ Profession (male Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+"一个格格不入的史前活化石，被困在一个陌生而可怕的世界。猎手的生活虽然艰苦，但至少不必和活死人拼命，而且还有部族在身后支持你。但在这儿，你只能靠自己。"
+
+#. ~ Profession (female Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+"一个格格不入的史前活化石，被困在一个陌生而可怕的世界。猎手的生活虽然艰苦，但至少不必和活死人拼命，而且还有部族在身后支持你。但在这儿，你只能靠自己。"
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -23005,6 +22958,34 @@ msgid ""
 "self-imposed exile in the wilderness.  The world as they knew it might have "
 "ended for your forsaken species, but you can hardly tell the difference."
 msgstr "在野外历经长年的自我流放式的生活， 你已经和自然之母达成一致。这个原属于被抛弃的人类的世界可能已经完蛋了，但是对你而言却依如昨日。"
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Wanderer"
+msgstr "流浪汉"
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Wanderer"
+msgstr "流浪女"
+
+#. ~ Profession (male Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr "你总是向往着广阔天空下的舒适，远离复杂的现代生活。但是看来，一切东西都和你上次见到文明时不一样了。"
+
+#. ~ Profession (female Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr "你总是向往着广阔天空下的舒适，远离复杂的现代生活。但是看来，一切东西都和你上次见到文明时不一样了。"
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -29344,6 +29325,10 @@ msgid "Middle of Nowhere"
 msgstr "无人区"
 
 #: data/json/start_locations.json
+msgid "Swamp"
+msgstr "沼泽"
+
+#: data/json/start_locations.json
 msgid "Deserted Island"
 msgstr "荒岛"
 
@@ -31980,6 +31965,109 @@ msgstr "面包"
 msgid "Milk"
 msgstr "奶类"
 
+#: data/json/voltmeter.lua
+msgid "Do you want to modify grid connections?"
+msgstr "您想要修改电网连接吗？"
+
+#: data/json/voltmeter.lua src/iexamine.cpp src/iuse.cpp
+#, c-format
+msgid "This electric grid stores %d kJ of electric power."
+msgstr "该电网储存了%dkJ的电力。"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Generation: %s"
+msgstr ""
+"\n"
+"发电量：%s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Consumption: %s"
+msgstr ""
+"\n"
+"耗电量：%s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Net: %s"
+msgstr ""
+"\n"
+"结余：%s"
+
+#. ~ %s is list of directions
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "This electric grid has connections: %s."
+msgstr "该电网已连接至：%s。"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "This electric grid has no connections."
+msgstr "该电网没有任何连接"
+
+#: data/json/voltmeter.lua
+msgid "Modify Grid Connections"
+msgstr "修改电网连接"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Add connection in direction: %s"
+msgstr "添加连接至方向：%s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Remove connection in direction: %s"
+msgstr "移除连接至方向：%s"
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting a grid with %d elements to a grid with %d elements."
+msgstr "您正将一个包含 %d 个元件的电网连接至另一个包含 %d 个元件的电网。"
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are extending a grid with %d elements."
+msgstr "您正在扩展一个包含 %d 个元件的电网。"
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting two locations in the same grid, with %d elements."
+msgstr "您正在连接同一电网中的两个位置（包含 %d 个元件）。"
+
+#: data/json/voltmeter.lua
+msgid "Error: requirement not found."
+msgstr "错误：未找到必要条件。"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: data/json/voltmeter.lua
+msgid ""
+"This action will not consume any resources.\n"
+"Are you sure?"
+msgstr ""
+"此操作不会消耗任何资源。\n"
+"确定要继续吗？"
+
+#: data/json/voltmeter.lua
+msgid "Failed to establish grid connection."
+msgstr "无法建立电网连接。"
+
+#: data/json/voltmeter.lua
+msgid "Grid connection established."
+msgstr "电网连接已建立。"
+
+#: data/json/voltmeter.lua
+msgid "Grid connection removed."
+msgstr "电网连接已移除。"
+
 #. ~ weapon category name
 #: data/json/weapon_categories.json
 msgid "Fist Weapons"
@@ -34181,6 +34269,18 @@ msgid ""
 "fire past without it blocking your shots, not that it will slow them down "
 "much."
 msgstr "一个路障。用于封锁道路。你可以站在旁边射击，而不会被挡住，尽管它不会对子弹速度造成太大影响。"
+
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid "simple wooden barricade"
+msgstr ""
+
+#. ~ Description for simple wooden barricade
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid ""
+"A waist-high barricade made of stout saplings, held in place by poles "
+"hammered into the ground.  Useful to fence in a campsite and shelter a fire "
+"from the wind, or slow down intruders."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-barriers.json
 msgid "earthbag barricade"
@@ -37802,6 +37902,30 @@ msgstr "屏风"
 msgid "A tall piece of furniture used to divide rooms into separate areas."
 msgstr "一件高大的家具，用于将房间分隔成不同的区域。"
 
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid "tarp lean-to"
+msgstr "防水帆布棚屋"
+
+#. ~ Description for tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid ""
+"A small shelter covered by waterproof tarp, that can be used to take refuge "
+"from the elements."
+msgstr "一个被防水布覆盖的遮蔽处，可用来躲避恶劣天气。"
+
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid "leather tarp lean-to"
+msgstr ""
+
+#. ~ Description for leather tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"A makeshift shelter made from a lather tarp and stakes driven into the "
+"ground."
+msgstr ""
+
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/furniture_and_terrain/terrain-mechanisms.json
 msgid "broken console"
@@ -37968,6 +38092,17 @@ msgstr "砖窑"
 #: data/json/furniture_and_terrain/furniture-tools.json
 msgid "A kiln designed to bake clay pottery and bricks."
 msgstr "一个用来烧制各类陶制器具和砖块的炉子。"
+
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid "charcoal purifier"
+msgstr ""
+
+#. ~ Description for charcoal purifier
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid ""
+"A makeshift filter constructed to hold a supply of charcoal, for purifying "
+"water."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/items/tool/misc.json
@@ -42193,17 +42328,6 @@ msgid ""
 msgstr "一种以松叶为屋顶的小棚屋，可用来躲避恶劣天气。"
 
 #: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid "tarp lean-to"
-msgstr "防水帆布棚屋"
-
-#. ~ Description for tarp lean-to
-#: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid ""
-"A small shelter covered by waterproof tarp, that can be used to take refuge "
-"from the elements."
-msgstr "一个被防水布覆盖的遮蔽处，可用来躲避恶劣天气。"
-
-#: data/json/furniture_and_terrain/terrain-manufactured.json
 msgid "unfinished niter bed"
 msgstr "硝石床（未完成）"
 
@@ -45572,6 +45696,49 @@ msgid ""
 "harder than any old pebble."
 msgstr "一个通过吊索进行投掷的铅球，比以往使用的任何一块鹅卵石都要硬得多。"
 
+#: data/json/items/ammo.json
+msgid "wooden atlatl dart"
+msgid_plural "wooden atlatl darts"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'wooden atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a fire-hardened sharpened "
+"point."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "iron atlatl dart"
+msgid_plural "iron atlatl darts"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'iron atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with an iron spear point."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "stone atlatl dart"
+msgid_plural "stone atlatl darts"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'stone atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a small stone spearhead."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "copper atlatl dart"
+msgid_plural "copper atlatl darts"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'copper atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with a copper spear point."
+msgstr ""
+
 #: data/json/items/ammo_types.json
 msgid ".50 BMG"
 msgstr ".50 BMG 弹"
@@ -45603,6 +45770,10 @@ msgstr "弩矢"
 #: data/json/items/ammo_types.json
 msgid "arrows"
 msgstr "箭"
+
+#: data/json/items/ammo_types.json
+msgid "atlatl dart"
+msgstr ""
 
 #: data/json/items/ammo_types.json
 msgid "pebbles"
@@ -58305,6 +58476,30 @@ msgid ""
 msgstr "一个佩带在后背、可容纳60支箭的桦树皮大箭筒。使用它以存储箭支。"
 
 #: data/json/items/armor/ammo_pouch.json
+msgid "atlatl dart quiver"
+msgid_plural "atlatl dart quivers"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A leather quiver worn at the waist, lengthened to hold atlatl darts.  "
+"Activate to store up to 15 darts."
+msgstr ""
+
+#: data/json/items/armor/ammo_pouch.json
+msgid "birchbark atlatl dart quiver"
+msgid_plural "birchbark atlatl dart quivers"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'birchbark atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A quiver woven from strips of birch bark, worn at the waist, lengthened to "
+"hold atlatl darts.  Activate to store up to 15 darts."
+msgstr ""
+
+#: data/json/items/armor/ammo_pouch.json
 msgid "tac vest"
 msgid_plural "tac vests"
 msgstr[0] "战术背心"
@@ -68786,6 +68981,19 @@ msgid ""
 msgstr "一个皮革小刀鞘，大小足够容纳匕首，或是类似的小型刀具。它很容易使用，不需要太多练习。使用它来收拔武器。"
 
 #: data/json/items/armor/sheath.json
+msgid "birchbark sheath"
+msgid_plural "birchbark sheathes"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'birchbark sheath', 'str_pl': 'birchbark
+#. sheathes'}
+#: data/json/items/armor/sheath.json
+msgid ""
+"A hand made sheath made from birch bark, for holding knives and other small "
+"blades.  Activate to sheathe/draw a weapon."
+msgstr ""
+
+#: data/json/items/armor/sheath.json
 msgid "spear strap"
 msgid_plural "spear straps"
 msgstr[0] "长矛背带"
@@ -69518,6 +69726,18 @@ msgstr[0] "草篮"
 #: data/json/items/armor/storage.json
 msgid "Hand made straw basket.  Carry it with you for extra storage."
 msgstr "一个手工编织的干草篮。随身携带可以让你获得额外的存储空间。"
+
+#: data/json/items/armor/storage.json
+msgid "pack basket"
+msgid_plural "pack baskets"
+msgstr[0] ""
+
+#. ~ Description for {'str': 'pack basket'}
+#: data/json/items/armor/storage.json
+msgid ""
+"A large hand made straw basket, with shoulder straps to wear like a "
+"backpack."
+msgstr ""
 
 #: data/json/items/armor/storage.json
 msgid "suitcase"
@@ -77062,6 +77282,7 @@ msgid_plural "base slings"
 msgstr[0] "基础投石索"
 
 #: data/json/items/classes/range.json data/json/items/gun/monster_gun.json
+#: data/json/items/ranged/slings.json
 #: data/mods/lethal_zeds/monster_overwrites.json
 msgctxt "gun_type_type"
 msgid "throw"
@@ -98955,6 +99176,34 @@ msgstr ""
 " SP-1 原装件，改装后的枪械可靠性和精度受到很大影响。"
 
 #: data/json/items/gunmod/mechanism.json
+msgid "universal auto link"
+msgid_plural "universal auto links"
+msgstr[0] "通用自动连杆"
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A crude, adjustable link and modified disconnector intended to defeat a "
+"rifle's semi-auto fire control group.  When carefully fitted, it turns many "
+"semiautomatic rifles into full-auto only, at the cost of reliability and "
+"accuracy."
+msgstr ""
+"一种粗糙的可调节连杆配合改装过的阻铁，旨在破解步枪的半自动火控组件。经过仔细安装后，它可以将许多半自动步枪转变为仅全自动模式，但代价是降低了可靠性和精度。"
+
+#: data/json/items/gunmod/mechanism.json
+msgid "universal automatic conversion kit"
+msgid_plural "universal automatic conversion kits"
+msgstr[0] "通用全自动改装套件"
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A collection of oversized, semi-finished fire-control parts, gauges, and "
+"springs meant to be hand-fitted to a wide range of semiautomatic rifles.  "
+"When successfully installed it provides burst and full-auto fire, but the "
+"compromises required for a one-size-fits-many kit reduce precision."
+msgstr ""
+"一套包含尺寸偏大的半成品火控部件、量规和弹簧的组件，旨在通过手工适配安装到各种半自动步枪上。成功安装后，它能提供点射和全自动射击功能，但这种为了兼容多种型号而做出的妥协设计会降低射击精度。"
+
+#: data/json/items/gunmod/mechanism.json
 msgid "glock switch"
 msgid_plural "glock switchs"
 msgstr[0] "格洛克开关"
@@ -103688,6 +103937,26 @@ msgid ""
 msgstr "一个镶有铁制尖端的投掷用标枪，握手经过处理，便于掌握。"
 
 #: data/json/items/melee/spears_and_polearms.json
+msgid "stone javelin"
+msgid_plural "stone javelins"
+msgstr[0] "石尖标枪"
+
+#. ~ Description for {'str': 'stone javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A throwing spear with a stone spearhead."
+msgstr ""
+
+#: data/json/items/melee/spears_and_polearms.json
+msgid "copper javelin"
+msgid_plural "copper javelins"
+msgstr[0] "铜尖标枪"
+
+#. ~ Description for {'str': 'copper javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A copper-tipped throwing spear."
+msgstr ""
+
+#: data/json/items/melee/spears_and_polearms.json
 msgctxt "weapon"
 msgid "wooden pike"
 msgid_plural "wooden pikes"
@@ -106356,6 +106625,20 @@ msgid ""
 msgstr "一把十字弩的魔改版本，射出的是石头而不是一般的弩矢。主要用来欺负小动物，力量大的人装填得更快。"
 
 #: data/json/items/ranged/crossbows.json
+msgid "makeshift crossbow"
+msgid_plural "makeshift crossbows"
+msgstr[0] "简易弩"
+
+#: data/json/items/ranged/crossbows.json
+msgid ""
+"A simple, handmade crossbow of the Skane style, with a wooden peg that is "
+"pushed up from underneath to loose the bowstring.  Not as powerful as other "
+"crossbow designs, but it is easier to draw the bow back.  Bolts fired from "
+"this weapon have a good chance of remaining intact for re-use."
+msgstr ""
+"一把自制简易弩，可以看出是依据瑞典斯科讷风格自制而成的。有一个木制的弦钮，从下往上拉让弓弦射出。没有其它的弩威力大，但是更容易把弓拉回来。这把弩射出来的箭很高概率会保持完好，可以再次使用。"
+
+#: data/json/items/ranged/crossbows.json
 msgid "pistol crossbow"
 msgid_plural "pistol crossbows"
 msgstr[0] "手弩"
@@ -106601,6 +106884,17 @@ msgid ""
 "reload."
 msgstr ""
 "介于弹矢弩和极致弹弓之间的一种武器，这种肩扛式武器使用绞盘将数条弹性带保持在张力下。它发射比普通弹弓的小石头具有更大威力和射程的全尺寸石块。高力量会使其重新装填速度更快。"
+
+#: data/json/items/ranged/slings.json
+msgid "atlatl"
+msgid_plural "atlatls"
+msgstr[0] "阿兹特克掷矛器"
+
+#: data/json/items/ranged/slings.json
+msgid ""
+"A wooden tool for supporting a javelin, to throw it more effectively than by"
+" hand."
+msgstr "一个用于支撑投矛的木制工具，比起纯用手，他能投得更有效率。"
 
 #: data/json/items/ranged/spearguns.json
 msgid "wooden fishing spear"
@@ -109348,8 +109642,8 @@ msgstr ""
 "这是一套锁匠用的坚固钢制撬锁器和扭力扳手。只要你具备一定的机械技能，它们是无声且快速开锁的必备工具。如果你蹲下身检查一扇锁住的门，你会优先选择用这些工具开锁，而不是用撬棍。"
 
 #: data/json/items/tool/entry_tools.json
-msgid "bio lockpick"
-msgid_plural "bio lockpicks"
+msgid "bionic lockpick"
+msgid_plural "bionic lockpicks"
 msgstr[0] "生化开锁器"
 
 #: data/json/items/tool/explosives.json
@@ -116784,6 +117078,18 @@ msgstr[0] "接线薄钢板"
 #: data/json/items/vehicle/plating.json
 msgid "Sheet metal that has had light housing wired into it."
 msgstr "内置遮光罩和线路的薄钢板。"
+
+#: data/json/items/vehicle/plating.json
+msgid "aluminum sheet"
+msgid_plural "aluminum sheets"
+msgstr[0] "铝薄板"
+
+#. ~ Description for {'str': 'aluminum sheet'}
+#: data/json/items/vehicle/plating.json
+msgid ""
+"A thin sheet of aluminum, usable for lightweight car body panels or to keep "
+"a boat afloat."
+msgstr "一张薄铝皮，可用于制作轻型车身面板，或保持船只浮力。"
 
 #: data/json/items/vehicle/plating.json
 msgid "wooden armor kit"
@@ -179071,6 +179377,14 @@ msgid ""
 msgstr "一块半高金属隔板。能够阻挡丧尸但是无法阻挡其他人的视线。"
 
 #: data/json/vehicleparts/boards.json
+msgid "aluminum board"
+msgstr "铝制隔板"
+
+#: data/json/vehicleparts/boards.json
+msgid "aluminum quarterpanel"
+msgstr "铝制半隔板"
+
+#: data/json/vehicleparts/boards.json
 msgid "stow board"
 msgstr "载物板"
 
@@ -180829,6 +181143,15 @@ msgid ""
 "A light weight, advanced carbon fiber rigid sheet that keeps the water out "
 "of your boat."
 msgstr "一块轻便而先进的碳纤维板，可以把水挡在船外。"
+
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "aluminum boat hull"
+msgstr "铝制船体"
+
+#. ~ Description for {'str': 'aluminum boat hull'}
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "A rigid aluminum sheet that keeps water out of your boat."
+msgstr "一块坚硬的铝板，能防止船只进水。"
 
 #. ~ Description for {'str': 'hovercraft impeller'}
 #: data/json/vehicleparts/vehicle_parts.json
@@ -218443,7 +218766,7 @@ msgstr ""
 msgid ""
 "Welcome to e-book library!\n"
 "This device currently holds %d book(s).\n"
-"Network sync unavilable."
+"Network sync unavailable."
 msgstr ""
 "欢迎来到电子书图书馆！\n"
 "此设备当前存储了 %d 本书。\n"
@@ -218454,7 +218777,7 @@ msgid "Scan book(s)"
 msgstr "扫描书籍"
 
 #: data/mods/ebook_lua/main.lua
-msgid "Scans all the book you have. It will progress instantly."
+msgid "Scan all the books you have. It will progress instantly."
 msgstr "扫描你拥有的所有书籍。这将瞬间完成。"
 
 #: data/mods/ebook_lua/main.lua
@@ -220895,10 +221218,21 @@ msgstr ""
 "这根临时旗杆目前正悬挂着印有无限符号的自闭症骄傲旗帜。中间的金色条带指的是金元素符号（AU），在自闭症社区中使用。渐变色代表骄傲运动。红色起源于对“点亮蓝色”活动的抗议，这个活动曾受到自闭症社区的谴责。无限符号是长期以来在更广泛的自闭症和更广泛的神经多样性社区中使用的符号。"
 
 #: data/mods/pride_flags/modinfo.json
-msgid "Pride Flags for BN"
-msgstr "性别认同骄傲旗帜"
+msgid ""
+"<color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>"
+" "
+"<color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>"
+" <color_blue>f</color><color_magenta>o</color><color_red>r</color> "
+"<color_pink>B</color><color_yellow>N</color>"
+msgstr ""
+"<color_red>B</color><color_pink>N</color> <color_yellow>的</color> "
+"<color_green>骄</color><color_blue>傲</color><color_magenta>旗</color><color_red>帜</color>"
 
-#. ~ Description for Pride Flags for BN
+#. ~ Description for
+#. <color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>
+#. <color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>
+#. <color_blue>f</color><color_magenta>o</color><color_red>r</color>
+#. <color_pink>B</color><color_yellow>N</color>
 #: data/mods/pride_flags/modinfo.json
 msgid "Pride flags for Bright Nights, for all your roleplaying needs."
 msgstr "这是为了满足您所有角色扮演需求而设计的骄傲旗帜。"
@@ -222398,6 +222732,15 @@ msgstr "传送"
 #: data/mods/teleportation_mod/modinfo.json
 msgid "Add craftable and buildable teleporters."
 msgstr "增加可制作和可建造的传送器。"
+
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test Lua Require"
+msgstr "测试 Lua Require"
+
+#. ~ Description for Test Lua Require
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test mod for Lua relative and absolute imports"
+msgstr "用于测试 Lua 相对与绝对引用的模组"
 
 #: data/mods/underground_dynamic_temperature/modinfo.json
 msgid "Underground Dynamic Temperature"
@@ -224252,6 +224595,10 @@ msgstr "禁用区域"
 #: data/raw/keybindings/keybindings.json
 msgid "Show all zones / hide distant zones"
 msgstr "显示所有区域/隐藏过远区域"
+
+#: data/raw/keybindings/keybindings.json src/debug_menu.cpp
+msgid "Toggle zone overlay"
+msgstr "切换区域覆盖"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Select left inventory"
@@ -228045,11 +228392,11 @@ msgstr "<S>开关"
 msgid "Discover more special encounters to populate this list"
 msgstr "发现更多地图事件来扩充此列表"
 
-#: src/auto_note.cpp src/editmap.cpp
+#: src/auto_note.cpp src/editmap.cpp src/game.cpp
 msgid "no"
 msgstr "不"
 
-#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp
+#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp src/game.cpp
 msgid "yes"
 msgstr "是"
 
@@ -235247,10 +235594,6 @@ msgid "Toggle display submap grid"
 msgstr "切换显示大地图地块边界"
 
 #: src/debug_menu.cpp
-msgid "Toggle zone overlay"
-msgstr "切换区域覆盖"
-
-#: src/debug_menu.cpp
 msgid "Set automove target"
 msgstr "自动寻路至某目标"
 
@@ -237421,6 +237764,25 @@ msgstr "%1$s"
 msgid "You're caught in the explosion!"
 msgstr "你被爆炸波及！"
 
+#. ~ %1$s: entity dealing damage, %2$s: target creature name, %3$d: damage
+#. value
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s for %3$d damage!"
+msgstr "%1$s 飞出击中 %2$s，造成了 %3$d 点伤害！"
+
+#. ~ %1$s: entity dealing damage, %2$s: target creature name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s but deals no damage."
+msgstr "%1$s 飞出击中 %2$s，但未造成伤害。"
+
+#. ~ %1$s: item name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and smashes into something!"
+msgstr "%1$s 飞出并撞上了某物！"
+
 #: src/explosion.cpp
 msgid "a huge explosion!"
 msgstr "巨大的爆炸声！"
@@ -237821,7 +238183,7 @@ msgstr "双方均没有无线电"
 msgid "Within interaction range"
 msgstr "在可交互范围内"
 
-#: src/faction.cpp
+#: src/faction.cpp src/game.cpp
 msgid "Status: "
 msgstr "状态："
 
@@ -238774,6 +239136,10 @@ msgid "<M>ap"
 msgstr "<M>地图"
 
 #: src/game.cpp
+msgid "<O> - Toggle Overlays"
+msgstr "<O> - 切换覆盖层"
+
+#: src/game.cpp
 msgid "Zones manager"
 msgstr "区域管理"
 
@@ -238882,9 +239248,94 @@ msgstr "<+/->优先级"
 msgid "<T>ravel to"
 msgstr "<T>前往"
 
+#: src/game.cpp src/veh_interact.cpp
+msgid "like new"
+msgstr "全新"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "battered"
+msgstr "磨损"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "wrecked"
+msgstr "残破"
+
 #: src/game.cpp
-msgid "You don't see any items or monsters around you!"
-msgstr "你看不到任何物品和怪物！"
+msgid "Vehicles"
+msgstr "载具"
+
+#: src/game.cpp
+msgid "You don't see any vehicles around you!"
+msgstr "你周围没有任何载具！"
+
+#: src/game.cpp
+#, c-format
+msgid "%d %s"
+msgstr "%d %s"
+
+#: src/game.cpp
+#, c-format
+msgid "Engine: %s"
+msgstr "引擎：%s"
+
+#: src/game.cpp
+msgid "off"
+msgstr "关"
+
+#: src/game.cpp
+msgid "on"
+msgstr "开"
+
+#: src/game.cpp
+#, c-format
+msgid "Moving: %s"
+msgstr "移动：%s"
+
+#: src/game.cpp
+msgid "This vehicle has enough wheels."
+msgstr "这辆载具有足够的轮子。"
+
+#: src/game.cpp
+msgid "This vehicle does not have enough wheels."
+msgstr "这辆载具没有足够的轮子。"
+
+#: src/game.cpp
+#, c-format
+msgid "%s / %s %s"
+msgstr "%s / %s %s"
+
+#: src/game.cpp
+msgid "This vehicle is leaking fuel."
+msgstr "这辆载具正在漏油。"
+
+#: src/game.cpp
+#, c-format
+msgid "Floats: %s"
+msgstr "漂浮：%s"
+
+#: src/game.cpp
+msgid "Speed: "
+msgstr "速度："
+
+#: src/game.cpp
+msgid "Engine: "
+msgstr "引擎："
+
+#: src/game.cpp
+msgid "Cargo: "
+msgstr "载货："
+
+#: src/game.cpp
+msgid "This vehicle can float."
+msgstr "这辆载具可以漂浮。"
+
+#: src/game.cpp
+msgid "This vehicle can't float."
+msgstr "这辆载具无法漂浮。"
+
+#: src/game.cpp
+msgid "You don't see any items, monsters, or vehicles around you!"
+msgstr "你周围没有任何物品、怪物或载具！"
 
 #: src/game.cpp
 msgctxt "list items"
@@ -264507,6 +264958,16 @@ msgid ""
 msgstr "当受到超过阈值的伤害时，爆炸物品和陷阱将会引爆。较高的数字意味着需要更多的伤害来引爆。将其设置为0以禁用该功能。"
 
 #: src/options.cpp
+msgid "Item damage on flying impact"
+msgstr "物品飞行撞击伤害"
+
+#: src/options.cpp
+msgid ""
+"If true, items flung by explosions will deal (lethal) damage to whatever "
+"they hit."
+msgstr "开启后，被爆炸炸飞的物品将对击中的目标造成（致命）伤害。"
+
+#: src/options.cpp
 msgid "Old explosions system"
 msgstr "旧版爆炸系统"
 
@@ -264640,6 +265101,14 @@ msgstr "载具门锁"
 #: src/options.cpp
 msgid "Determines if new vehicles can spawn with locked doors."
 msgstr "决定新生成的载具是否自带已上锁的车门。"
+
+#: src/options.cpp
+msgid "Vehicle spawn rate scaling factor"
+msgstr "载具生成系数"
+
+#: src/options.cpp
+msgid "A scaling factor that determines density of vehicle spawns."
+msgstr "设置载具生成的密度系数。"
 
 #: src/options.cpp
 msgid "Spawn rate scaling factor"
@@ -265646,8 +266115,12 @@ msgid "Type COLOR;TEXT to set a custom color."
 msgstr "输入\"颜色;文本\"可自定义颜色。"
 
 #: src/overmap_ui.cpp
-msgid "Examples: B:Base | g;Loot | !:R;Minefield"
-msgstr "示例： B:基地 | g;战利品 | !:R;雷区"
+msgid "Type SPRITE:TILE_ID to set a custom sprite."
+msgstr "输入 SPRITE:图块ID 以设置自定义图像。"
+
+#: src/overmap_ui.cpp
+msgid "Examples: B:Base | g;Loot | SPRITE:toolbox;g;Tools"
+msgstr "示例：B:基地 | g;战利品 | SPRITE:toolbox;g;工具"
 
 #: src/overmap_ui.cpp
 msgid "Note:"
@@ -270331,18 +270804,6 @@ msgstr "电池容量"
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "出力：<color_light_gray>%+8d 瓦</color>"
-
-#: src/veh_interact.cpp
-msgid "like new"
-msgstr "全新"
-
-#: src/veh_interact.cpp
-msgid "battered"
-msgstr "磨损"
-
-#: src/veh_interact.cpp
-msgid "wrecked"
-msgstr "残破"
 
 #: src/veh_interact.cpp
 msgid "Select tank to siphon:"

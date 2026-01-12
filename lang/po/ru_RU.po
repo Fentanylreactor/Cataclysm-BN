@@ -28,15 +28,15 @@
 # Vlados <vuradoz@gmail.com>, 2025
 # GostBug <blackday8990@gmx.de>, 2025
 # Vadim, 2025
-# Vorpal Void <vorpal.void@gmail.com>, 2025
 # toy goy “phil1999ru” loc, 2025
-# Coolthulhu <Coolthulhu@gmail.com>, 2025
+# Vorpal Void <vorpal.void@gmail.com>, 2026
+# Coolthulhu <Coolthulhu@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-bn\n"
-"POT-Creation-Date: 2026-01-03 19:46+0000\n"
-"Last-Translator: Coolthulhu <Coolthulhu@gmail.com>, 2025\n"
+"POT-Creation-Date: 2026-01-11 03:04+0000\n"
+"Last-Translator: Coolthulhu <Coolthulhu@gmail.com>, 2026\n"
 "Language-Team: Russian (Russia) (https://app.transifex.com/bn-team/teams/113585/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5769,6 +5769,10 @@ msgid "Build Clay Kiln"
 msgstr "Построить глиняную печь"
 
 #: data/json/construction_group.json
+msgid "Build Charcoal Purifier"
+msgstr ""
+
+#: data/json/construction_group.json
 msgid "Build Coat Rack"
 msgstr "Изготовить вешалку"
 
@@ -6085,6 +6089,10 @@ msgid "Build Road Barricade"
 msgstr "Построить баррикады"
 
 #: data/json/construction_group.json
+msgid "Build Simple Wooden Barricade"
+msgstr ""
+
+#: data/json/construction_group.json
 msgid "Build Rock Forge"
 msgstr "Построить каменный горн"
 
@@ -6195,6 +6203,10 @@ msgstr "Поставить стол"
 #: data/json/construction_group.json
 msgid "Build Tarp Lean-To"
 msgstr "Построить брезентовый навес"
+
+#: data/json/construction_group.json
+msgid "Build Leather Tarp Lean-To"
+msgstr ""
 
 #: data/json/construction_group.json
 msgid "Build Thatched Roof Over Dirt Floor"
@@ -12803,6 +12815,13 @@ msgstr ""
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
 msgid ""
+"This thrown item <info>flies straight</info> without rotating in the air, "
+"maintaining its aerodynamic orientation."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: data/json/flags.json
+msgid ""
 "This weapon <good>can shoot underwater</good>, but <info>unless it was "
 "specifically designed to do so</info>, it <bad>will suffer from accuracy "
 "penalty</bad>."
@@ -13637,7 +13656,7 @@ msgstr "Изменить соединения электросети"
 
 #: data/json/item_actions.json
 msgid "Measure grid power"
-msgstr ""
+msgstr "Проверить энергоснабжение в сети"
 
 #: data/json/item_actions.json
 msgid "Dry/clean yourself"
@@ -13941,6 +13960,10 @@ msgstr "НАДЕТЫЕ ВЕЩИ"
 #: data/json/item_category.json
 msgid "WEAPON HELD"
 msgstr "ОРУЖИЕ В РУКАХ"
+
+#: data/json/item_category.json
+msgid "USABLE BIONICS"
+msgstr ""
 
 #: data/json/legacy_artifact_active.json
 msgid "Artifact Adrenaline"
@@ -15080,101 +15103,6 @@ msgid ""
 msgstr ""
 "Жидкости в этой зоне будут выпиваться вами, если вы проголодаетесь во время "
 "длительного занятия."
-
-#: data/json/main.lua
-msgid "Do you want to modify grid connections?"
-msgstr ""
-
-#: data/json/main.lua src/iexamine.cpp src/iuse.cpp
-#, c-format
-msgid "This electric grid stores %d kJ of electric power."
-msgstr "Эта электрическая сеть хранит %d кДж электроэнергии."
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Generation: %s"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Consumption: %s"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Net: %s"
-msgstr ""
-
-#. ~ %s is list of directions
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "This electric grid has connections: %s."
-msgstr "Подключения данной электросети: %s."
-
-#: data/json/main.lua src/iuse.cpp
-msgid "This electric grid has no connections."
-msgstr "Данная электросеть не имеет точек подключения."
-
-#: data/json/main.lua
-msgid "Modify Grid Connections"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Add connection in direction: %s"
-msgstr "Добавить соединение в направлении: %s"
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Remove connection in direction: %s"
-msgstr "Убрать соединение в направлении: %s"
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting a grid with %d elements to a grid with %d elements."
-msgstr ""
-
-#: data/json/main.lua
-#, c-format
-msgid "You are extending a grid with %d elements."
-msgstr ""
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting two locations in the same grid, with %d elements."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Error: requirement not found."
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-msgid "Are you sure?"
-msgstr "Вы уверены?"
-
-#: data/json/main.lua
-msgid ""
-"This action will not consume any resources.\n"
-"Are you sure?"
-msgstr ""
-
-#: data/json/main.lua
-msgid "Failed to establish grid connection."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Grid connection established."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Grid connection removed."
-msgstr ""
 
 #: data/json/martialarts.json
 msgid "No style"
@@ -17780,7 +17708,7 @@ msgid "Resin"
 msgstr "смола"
 
 #: data/json/materials.json data/mods/Aftershock/items/materials.json
-#: data/mods/MagicalNights/materials.json src/veh_interact.cpp
+#: data/mods/MagicalNights/materials.json src/game.cpp src/veh_interact.cpp
 msgid "dented"
 msgstr "испорчено"
 
@@ -17822,7 +17750,8 @@ msgstr "погнуто"
 msgid "smashed"
 msgstr "разбитый"
 
-#: data/json/materials.json src/character.cpp src/veh_interact.cpp
+#: data/json/materials.json src/character.cpp src/game.cpp
+#: src/veh_interact.cpp
 msgid "destroyed"
 msgstr "уничтожено"
 
@@ -18481,7 +18410,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#. ~ Description for {'str': 'bio lockpick'}
+#. ~ Description for {'str': 'bionic lockpick'}
 #: data/json/monster_attacks.json data/json/items/gun/bio.json
 #: data/json/items/tool/entry_tools.json
 msgid "this a pseudo item"
@@ -20050,6 +19979,44 @@ msgstr ""
 "нечестивой ворожбе, каковая извела тебе сюда. Имеючи токмо сии запасы, тебе "
 "должно найтить способ выжить в худшем катаклизме, каковой же узревал человек"
 " с поры Потопа да ковчега Ноева."
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Prehistoric Hunter"
+msgstr "Доисторический охотник"
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Prehistoric Hunter"
+msgstr "Доисторическая охотница"
+
+#. ~ Profession (male Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+"Ты неуместный живой доисторический реликт, затерянный в незнакомом и "
+"пугающем мире. Жизнь охотника-собирателя была трудной, но тебе, по крайней "
+"мере, не приходилось бороться с ожившими мертвецами, а твоя родня стояла за "
+"тебя горой. Здесь же ты сам по себе."
+
+#. ~ Profession (female Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+"Ты неуместный живой доисторический реликт, затерянная в незнакомом и "
+"пугающем мире. Жизнь охотника-собирателя была трудной, но тебе, по крайней "
+"мере, не приходилось бороться с ожившими мертвецами, а твоя родня стояла за "
+"тебя горой. Здесь же ты сама по себе."
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -25535,6 +25502,40 @@ msgstr ""
 "За долгие годы добровольной ссылки в глуши ты пришла к взаимопониманию с "
 "матерью-природой. Мир, каким его знали, мог бы уже закончиться для вашего "
 "отвергнутого вида, но ты едва ли заметила разницу."
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Wanderer"
+msgstr "Странник"
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Wanderer"
+msgstr "Странница"
+
+#. ~ Profession (male Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+"Ты всегда предпочитал комфорт открытого неба сложностям современной жизни. "
+"Впрочем, ситуация значительно поменялась с тех пор, как ты в последний раз "
+"проходил где-нибудь поблизости цивилизации."
+
+#. ~ Profession (female Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+"Ты всегда предпочитала комфорт открытого неба сложностям современной жизни. "
+"Впрочем, ситуация значительно поменялась с тех пор, как ты в последний раз "
+"проходила где-нибудь поблизости цивилизации."
 
 #: data/json/professions.json
 msgctxt "profession_male"
@@ -32647,6 +32648,10 @@ msgid "Middle of Nowhere"
 msgstr "Чёрт-те где"
 
 #: data/json/start_locations.json
+msgid "Swamp"
+msgstr "Болото"
+
+#: data/json/start_locations.json
 msgid "Deserted Island"
 msgstr "Необитаемый остров"
 
@@ -35338,6 +35343,112 @@ msgstr "Хлеб"
 msgid "Milk"
 msgstr "Молоко"
 
+#: data/json/voltmeter.lua
+msgid "Do you want to modify grid connections?"
+msgstr "Хотите модифицировать соединения в электросети?"
+
+#: data/json/voltmeter.lua src/iexamine.cpp src/iuse.cpp
+#, c-format
+msgid "This electric grid stores %d kJ of electric power."
+msgstr "Эта электрическая сеть хранит %d кДж электроэнергии."
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Generation: %s"
+msgstr ""
+"\n"
+"Производство: %s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Consumption: %s"
+msgstr ""
+"\n"
+"Потребление: %s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Net: %s"
+msgstr ""
+"\n"
+"Всего: %s"
+
+#. ~ %s is list of directions
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "This electric grid has connections: %s."
+msgstr "Подключения данной электросети: %s."
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "This electric grid has no connections."
+msgstr "Данная электросеть не имеет точек подключения."
+
+#: data/json/voltmeter.lua
+msgid "Modify Grid Connections"
+msgstr "Модифицировать соединения"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Add connection in direction: %s"
+msgstr "Добавить соединение в направлении: %s"
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Remove connection in direction: %s"
+msgstr "Убрать соединение в направлении: %s"
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting a grid with %d elements to a grid with %d elements."
+msgstr ""
+"Вы соединяете электросеть (%d элементов) с другой электросетью (%d "
+"элементов)."
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are extending a grid with %d elements."
+msgstr "Вы расширяете электросеть: %d элементов."
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting two locations in the same grid, with %d elements."
+msgstr ""
+"Вы соединяете две локации в одну электросеть, количество элементов: %d."
+
+#: data/json/voltmeter.lua
+msgid "Error: requirement not found."
+msgstr "Ошибка: требования не выполнены."
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: data/json/voltmeter.lua
+msgid ""
+"This action will not consume any resources.\n"
+"Are you sure?"
+msgstr ""
+"Это действие не требует никаких ресурсов.\n"
+"Вы уверены?"
+
+#: data/json/voltmeter.lua
+msgid "Failed to establish grid connection."
+msgstr "Не удалось подключиться к электросети."
+
+#: data/json/voltmeter.lua
+msgid "Grid connection established."
+msgstr "Подключение к электросети установлено."
+
+#: data/json/voltmeter.lua
+msgid "Grid connection removed."
+msgstr "Подключение к электросети убрано."
+
 #. ~ weapon category name
 #: data/json/weapon_categories.json
 msgid "Fist Weapons"
@@ -37840,6 +37951,18 @@ msgstr ""
 "Дорожная баррикада. Для баррикадирования дорог. Можно встать рядом с ней для"
 " того, что она не мешала вести огонь, да и не то чтобы она могла как-то "
 "сдержать пули."
+
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid "simple wooden barricade"
+msgstr ""
+
+#. ~ Description for simple wooden barricade
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid ""
+"A waist-high barricade made of stout saplings, held in place by poles "
+"hammered into the ground.  Useful to fence in a campsite and shelter a fire "
+"from the wind, or slow down intruders."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-barriers.json
 msgid "earthbag barricade"
@@ -41959,6 +42082,32 @@ msgstr ""
 "Высокий предмет мебели, используемый для разделения комнат на отдельные "
 "зоны."
 
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid "tarp lean-to"
+msgstr "брезентовый навес"
+
+#. ~ Description for tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid ""
+"A small shelter covered by waterproof tarp, that can be used to take refuge "
+"from the elements."
+msgstr ""
+"Самодельное укрытие из водонепроницаемого брезента, в нём можно спрятаться в"
+" непогоду."
+
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid "leather tarp lean-to"
+msgstr ""
+
+#. ~ Description for leather tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"A makeshift shelter made from a lather tarp and stakes driven into the "
+"ground."
+msgstr ""
+
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/furniture_and_terrain/terrain-mechanisms.json
 msgid "broken console"
@@ -42163,6 +42312,17 @@ msgstr "глиняная печь"
 #: data/json/furniture_and_terrain/furniture-tools.json
 msgid "A kiln designed to bake clay pottery and bricks."
 msgstr "Печь для обжига глиняной керамики и кирпичей."
+
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid "charcoal purifier"
+msgstr ""
+
+#. ~ Description for charcoal purifier
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid ""
+"A makeshift filter constructed to hold a supply of charcoal, for purifying "
+"water."
+msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/items/tool/misc.json
@@ -47096,19 +47256,6 @@ msgstr ""
 "Самодельное укрытие из сосновых веток, в нём можно спрятаться в непогоду."
 
 #: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid "tarp lean-to"
-msgstr "брезентовый навес"
-
-#. ~ Description for tarp lean-to
-#: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid ""
-"A small shelter covered by waterproof tarp, that can be used to take refuge "
-"from the elements."
-msgstr ""
-"Самодельное укрытие из водонепроницаемого брезента, в нём можно спрятаться в"
-" непогоду."
-
-#: data/json/furniture_and_terrain/terrain-manufactured.json
 msgid "unfinished niter bed"
 msgstr "незаконченная селитряница"
 
@@ -51134,6 +51281,61 @@ msgstr ""
 "Свинцовый шарик, традиционно запускается из пращи. Лупит гораздо сильнее, "
 "чем всякая заурядная щебёнка."
 
+#: data/json/items/ammo.json
+msgid "wooden atlatl dart"
+msgid_plural "wooden atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'wooden atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a fire-hardened sharpened "
+"point."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "iron atlatl dart"
+msgid_plural "iron atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'iron atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with an iron spear point."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "stone atlatl dart"
+msgid_plural "stone atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'stone atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a small stone spearhead."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "copper atlatl dart"
+msgid_plural "copper atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'copper atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with a copper spear point."
+msgstr ""
+
 #: data/json/items/ammo_types.json
 msgid ".50 BMG"
 msgstr ".50 BMG"
@@ -51165,6 +51367,10 @@ msgstr "арбалетный болт"
 #: data/json/items/ammo_types.json
 msgid "arrows"
 msgstr "стрелы"
+
+#: data/json/items/ammo_types.json
+msgid "atlatl dart"
+msgstr ""
 
 #: data/json/items/ammo_types.json
 msgid "pebbles"
@@ -68591,6 +68797,36 @@ msgstr ""
 "чтобы убрать стрелы."
 
 #: data/json/items/armor/ammo_pouch.json
+msgid "atlatl dart quiver"
+msgid_plural "atlatl dart quivers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A leather quiver worn at the waist, lengthened to hold atlatl darts.  "
+"Activate to store up to 15 darts."
+msgstr ""
+
+#: data/json/items/armor/ammo_pouch.json
+msgid "birchbark atlatl dart quiver"
+msgid_plural "birchbark atlatl dart quivers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'birchbark atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A quiver woven from strips of birch bark, worn at the waist, lengthened to "
+"hold atlatl darts.  Activate to store up to 15 darts."
+msgstr ""
+
+#: data/json/items/armor/ammo_pouch.json
 msgid "tac vest"
 msgid_plural "tac vests"
 msgstr[0] "тактический бронежилет"
@@ -82804,6 +83040,22 @@ msgstr ""
 "вложить/достать оружие."
 
 #: data/json/items/armor/sheath.json
+msgid "birchbark sheath"
+msgid_plural "birchbark sheathes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'birchbark sheath', 'str_pl': 'birchbark
+#. sheathes'}
+#: data/json/items/armor/sheath.json
+msgid ""
+"A hand made sheath made from birch bark, for holding knives and other small "
+"blades.  Activate to sheathe/draw a weapon."
+msgstr ""
+
+#: data/json/items/armor/sheath.json
 msgid "spear strap"
 msgid_plural "spear straps"
 msgstr[0] "перевязь для копья"
@@ -83792,6 +84044,21 @@ msgid "Hand made straw basket.  Carry it with you for extra storage."
 msgstr ""
 "Соломенная корзина ручной работы. Носите её с собой, чтобы увеличить "
 "вместимость."
+
+#: data/json/items/armor/storage.json
+msgid "pack basket"
+msgid_plural "pack baskets"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'pack basket'}
+#: data/json/items/armor/storage.json
+msgid ""
+"A large hand made straw basket, with shoulder straps to wear like a "
+"backpack."
+msgstr ""
 
 #: data/json/items/armor/storage.json
 msgid "suitcase"
@@ -93895,6 +94162,7 @@ msgstr[2] "Базовые пращи"
 msgstr[3] "Базовые пращи"
 
 #: data/json/items/classes/range.json data/json/items/gun/monster_gun.json
+#: data/json/items/ranged/slings.json
 #: data/mods/lethal_zeds/monster_overwrites.json
 msgctxt "gun_type_type"
 msgid "throw"
@@ -123673,6 +123941,38 @@ msgstr ""
 "сомнительного качества работы и отсутствия необходимых деталей SP-1."
 
 #: data/json/items/gunmod/mechanism.json
+msgid "universal auto link"
+msgid_plural "universal auto links"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A crude, adjustable link and modified disconnector intended to defeat a "
+"rifle's semi-auto fire control group.  When carefully fitted, it turns many "
+"semiautomatic rifles into full-auto only, at the cost of reliability and "
+"accuracy."
+msgstr ""
+
+#: data/json/items/gunmod/mechanism.json
+msgid "universal automatic conversion kit"
+msgid_plural "universal automatic conversion kits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A collection of oversized, semi-finished fire-control parts, gauges, and "
+"springs meant to be hand-fitted to a wide range of semiautomatic rifles.  "
+"When successfully installed it provides burst and full-auto fire, but the "
+"compromises required for a one-size-fits-many kit reduce precision."
+msgstr ""
+
+#: data/json/items/gunmod/mechanism.json
 msgid "glock switch"
 msgid_plural "glock switchs"
 msgstr[0] "переключатель Glock"
@@ -130254,6 +130554,32 @@ msgstr ""
 "обмоткой для более уверенного удержания копья."
 
 #: data/json/items/melee/spears_and_polearms.json
+msgid "stone javelin"
+msgid_plural "stone javelins"
+msgstr[0] "каменная сулица"
+msgstr[1] "каменные сулицы"
+msgstr[2] "каменных сулиц"
+msgstr[3] "каменные сулицы"
+
+#. ~ Description for {'str': 'stone javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A throwing spear with a stone spearhead."
+msgstr ""
+
+#: data/json/items/melee/spears_and_polearms.json
+msgid "copper javelin"
+msgid_plural "copper javelins"
+msgstr[0] "медная сулица"
+msgstr[1] "медные сулицы"
+msgstr[2] "медных сулиц"
+msgstr[3] "медные сулицы"
+
+#. ~ Description for {'str': 'copper javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A copper-tipped throwing spear."
+msgstr ""
+
+#: data/json/items/melee/spears_and_polearms.json
 msgctxt "weapon"
 msgid "wooden pike"
 msgid_plural "wooden pikes"
@@ -133948,6 +134274,26 @@ msgstr ""
 "дичь, сильные люди перезаряжают быстрее."
 
 #: data/json/items/ranged/crossbows.json
+msgid "makeshift crossbow"
+msgid_plural "makeshift crossbows"
+msgstr[0] "самодельный арбалет"
+msgstr[1] "самодельных арбалета"
+msgstr[2] "самодельных арбалетов"
+msgstr[3] "самодельных арбалета"
+
+#: data/json/items/ranged/crossbows.json
+msgid ""
+"A simple, handmade crossbow of the Skane style, with a wooden peg that is "
+"pushed up from underneath to loose the bowstring.  Not as powerful as other "
+"crossbow designs, but it is easier to draw the bow back.  Bolts fired from "
+"this weapon have a good chance of remaining intact for re-use."
+msgstr ""
+"Простой собранный вручную скандинавский арбалет. Тетива спускается поднятием"
+" деревянного рычага. Не такой мощный, как другие модели арбалетов, зато "
+"легче натягивать тетиву. Болты, выпущенные из этого оружия, имеют хороший "
+"шанс уцелеть для повторного использования."
+
+#: data/json/items/ranged/crossbows.json
 msgid "pistol crossbow"
 msgid_plural "pistol crossbows"
 msgstr[0] "арбалет-пистолет"
@@ -134310,6 +134656,22 @@ msgstr ""
 "удержания ремней. Использует полновесные булыжники в качестве снарядов, что "
 "куда весомее, чем щебёнка для обычной рогатки. Большой показатель силы "
 "позволит перезаряжать её быстрее."
+
+#: data/json/items/ranged/slings.json
+msgid "atlatl"
+msgid_plural "atlatls"
+msgstr[0] "атлатль"
+msgstr[1] "атлатля"
+msgstr[2] "атлатлей"
+msgstr[3] "атлатль"
+
+#: data/json/items/ranged/slings.json
+msgid ""
+"A wooden tool for supporting a javelin, to throw it more effectively than by"
+" hand."
+msgstr ""
+"Деревянное приспособление для метания дротиков с большей эффективностью, "
+"нежели руками."
 
 #: data/json/items/ranged/spearguns.json
 msgid "wooden fishing spear"
@@ -138024,12 +138386,12 @@ msgstr ""
 "лома."
 
 #: data/json/items/tool/entry_tools.json
-msgid "bio lockpick"
-msgid_plural "bio lockpicks"
-msgstr[0] "био-отмычка"
-msgstr[1] "био-отмычки"
-msgstr[2] "био-отмычек"
-msgstr[3] "био-отмычка"
+msgid "bionic lockpick"
+msgid_plural "bionic lockpicks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: data/json/items/tool/explosives.json
 msgid "debug shrapnel"
@@ -148117,6 +148479,21 @@ msgstr[3] "лист металла с проводкой"
 #: data/json/items/vehicle/plating.json
 msgid "Sheet metal that has had light housing wired into it."
 msgstr "Лист металла с прикреплённой к нему проводкой."
+
+#: data/json/items/vehicle/plating.json
+msgid "aluminum sheet"
+msgid_plural "aluminum sheets"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description for {'str': 'aluminum sheet'}
+#: data/json/items/vehicle/plating.json
+msgid ""
+"A thin sheet of aluminum, usable for lightweight car body panels or to keep "
+"a boat afloat."
+msgstr ""
 
 #: data/json/items/vehicle/plating.json
 msgid "wooden armor kit"
@@ -168913,7 +169290,7 @@ msgstr ""
 
 #: data/json/mutations/mutations.json
 msgid "Lost To The Cataclysm"
-msgstr "Падение в Катаклизме"
+msgstr "Жертва Катаклизма"
 
 #. ~ Description for {'str': 'Lost To The Cataclysm'}
 #: data/json/mutations/mutations.json
@@ -168924,11 +169301,12 @@ msgid ""
 "living and sane.  Your fellow lost and damned will suffice too, but that "
 "might cause the others to mistake you for the living."
 msgstr ""
-"Что-то внутри вас сломалось. То ли из-за утопания в разложении, то ли из-за "
-"потустороннего влияния, живые сторонятся вас, а неживые, по большей части, "
-"игнорируют.  Ваш разум и тело будут разрушаться, если вы не будете "
-"продолжать убивать живых и разумных. Ваши товарищи, пропащие и обречённые, "
-"тоже подойдут, но это может заставить других принять вас за живого."
+"Что-то внутри вас сломалось. Будь то из-за пребывания в упадочном состоянии "
+"или влияния иного мира, живые избегают вас, а нежить в основном игнорирует. "
+"Ваши разум и тело будут угасать, если вы не будете убивать живых и "
+"здравомыслящих. Ваши товарищи, такие же пропащие и обречённые, тоже "
+"сгодятся, но это может навести окружающих на ошибочную мысль, что вы всё ещё"
+" живой человек."
 
 #: data/json/mutations/mutations.json
 msgid "Swordsman"
@@ -222761,6 +223139,14 @@ msgstr ""
 "транспорта, но позволяет смотреть через неё."
 
 #: data/json/vehicleparts/boards.json
+msgid "aluminum board"
+msgstr ""
+
+#: data/json/vehicleparts/boards.json
+msgid "aluminum quarterpanel"
+msgstr ""
+
+#: data/json/vehicleparts/boards.json
 msgid "stow board"
 msgstr "складной кузов"
 
@@ -224755,6 +225141,15 @@ msgid ""
 msgstr ""
 "Лёгкий и жёсткий борт из высокотехнологичного углеволокна удерживает воду "
 "снаружи вашей лодки."
+
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "aluminum boat hull"
+msgstr ""
+
+#. ~ Description for {'str': 'aluminum boat hull'}
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "A rigid aluminum sheet that keeps water out of your boat."
+msgstr ""
 
 #. ~ Description for {'str': 'hovercraft impeller'}
 #: data/json/vehicleparts/vehicle_parts.json
@@ -271495,20 +271890,16 @@ msgstr ""
 msgid ""
 "Welcome to e-book library!\n"
 "This device currently holds %d book(s).\n"
-"Network sync unavilable."
+"Network sync unavailable."
 msgstr ""
-"Добро пожаловать в цифровую библиотеку!\n"
-"Количество книг на данном устройстве: %d.\n"
-"Сетевая синхронизация недоступна."
 
 #: data/mods/ebook_lua/main.lua
 msgid "Scan book(s)"
 msgstr "Сканировать книги"
 
 #: data/mods/ebook_lua/main.lua
-msgid "Scans all the book you have. It will progress instantly."
+msgid "Scan all the books you have. It will progress instantly."
 msgstr ""
-"Отсканировать все книги в вашем распоряжении. Это мгновенная операция."
 
 #: data/mods/ebook_lua/main.lua
 msgid "Load book(s)"
@@ -274575,10 +274966,19 @@ msgid ""
 msgstr ""
 
 #: data/mods/pride_flags/modinfo.json
-msgid "Pride Flags for BN"
+msgid ""
+"<color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>"
+" "
+"<color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>"
+" <color_blue>f</color><color_magenta>o</color><color_red>r</color> "
+"<color_pink>B</color><color_yellow>N</color>"
 msgstr ""
 
-#. ~ Description for Pride Flags for BN
+#. ~ Description for
+#. <color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>
+#. <color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>
+#. <color_blue>f</color><color_magenta>o</color><color_red>r</color>
+#. <color_pink>B</color><color_yellow>N</color>
 #: data/mods/pride_flags/modinfo.json
 msgid "Pride flags for Bright Nights, for all your roleplaying needs."
 msgstr ""
@@ -276244,9 +276644,18 @@ msgstr "Телепортация"
 msgid "Add craftable and buildable teleporters."
 msgstr "Добавляет создаваемые и устанавливаемые телепорты."
 
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test Lua Require"
+msgstr ""
+
+#. ~ Description for Test Lua Require
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test mod for Lua relative and absolute imports"
+msgstr ""
+
 #: data/mods/underground_dynamic_temperature/modinfo.json
 msgid "Underground Dynamic Temperature"
-msgstr ""
+msgstr "Динамическая температура под землёй"
 
 #. ~ Description for Underground Dynamic Temperature
 #: data/mods/underground_dynamic_temperature/modinfo.json
@@ -276256,6 +276665,10 @@ msgid ""
 "surface temperature (z=-1: 50% influence, z=-2: 25%, z<=-3: 0% - annual "
 "average only)."
 msgstr ""
+"Температура под землёй станет динамической и будет подвержена влиянию "
+"погодных условий на поверхности. Показатели подземной температуры будут "
+"плавно изменяться в зависимости от глубины (z=-1: 50% влияния погоды, z=-2: "
+"25%, z<=-3: 0% — учитываются только среднегодичные показатели)."
 
 #: data/raw/tips.json
 msgid "Fires can spread easily, especially with abundance of fuel."
@@ -277051,15 +277464,15 @@ msgstr "Показать/скрыть рецепт"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Toggle read/unread"
-msgstr ""
+msgstr "Пометить прочитано/не прочитано"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Mark all recipes as read"
-msgstr ""
+msgstr "Пометить все рецепты прочитанными"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Show unread recipes on top"
-msgstr ""
+msgstr "Нерпочитанные рецепты вверху списка"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Batch crafting"
@@ -277959,7 +278372,7 @@ msgstr "Просмотр сетки подкарты"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Toggle Zone Overlay"
-msgstr ""
+msgstr "Переключить видимость зон"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Switch Sidebar Style"
@@ -278217,6 +278630,10 @@ msgstr "Выключить зону"
 #: data/raw/keybindings/keybindings.json
 msgid "Show all zones / hide distant zones"
 msgstr "Показать все зоны / спрятать удалённые зоны"
+
+#: data/raw/keybindings/keybindings.json src/debug_menu.cpp
+msgid "Toggle zone overlay"
+msgstr "Переключить видимость зон"
 
 #: data/raw/keybindings/keybindings.json
 msgid "Select left inventory"
@@ -278622,11 +279039,11 @@ msgstr "Переключить полноэкранный режим"
 
 #: data/raw/keybindings/messages.json
 msgid "Copy visible messages to clipboard"
-msgstr ""
+msgstr "Копировать видимые сообщения в буфер"
 
 #: data/raw/keybindings/messages.json
 msgid "Erase message history"
-msgstr ""
+msgstr "Стереть историю сообщений"
 
 #: data/raw/keybindings/vehicle.json src/vehicle_use.cpp
 msgid "Control multiple electronics"
@@ -282226,11 +282643,11 @@ msgstr ""
 "Натолкнитесь на большее количество специальных событий, чтобы заполнить этот"
 " список"
 
-#: src/auto_note.cpp src/editmap.cpp
+#: src/auto_note.cpp src/editmap.cpp src/game.cpp
 msgid "no"
 msgstr "нет"
 
-#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp
+#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp src/game.cpp
 msgid "yes"
 msgstr "да"
 
@@ -289136,17 +289553,17 @@ msgstr "Сбросить фильтр"
 #: src/crafting_gui.cpp
 msgctxt "crafting gui"
 msgid "Read/unread"
-msgstr ""
+msgstr "Прочитано/не прочитано"
 
 #: src/crafting_gui.cpp
 msgctxt "crafting gui"
 msgid "Mark all as read"
-msgstr ""
+msgstr "Пометить всё, как прочитанное"
 
 #: src/crafting_gui.cpp
 msgctxt "crafting gui"
 msgid "Show unread recipes first"
-msgstr ""
+msgstr "Показать непрочитанные рецепты первыми"
 
 #: src/crafting_gui.cpp
 msgctxt "crafting gui"
@@ -289181,7 +289598,7 @@ msgstr "Настройки клавиш"
 #: src/crafting_gui.cpp
 msgctxt "crafting gui"
 msgid "NEW!"
-msgstr ""
+msgstr "НОВОЕ!"
 
 #: src/crafting_gui.cpp
 #, c-format
@@ -289292,6 +289709,8 @@ msgid ""
 "<color_yellow>/!\\</color> Mark all recipes as read?  This cannot be undone."
 " <color_yellow>/!\\</color>"
 msgstr ""
+"<color_yellow>/!\\</color> Пометить все рецепты прочитанными? Это действие "
+"нельзя отменить. <color_yellow>/!\\</color>"
 
 #: src/crafting_gui.cpp
 #, c-format
@@ -289299,6 +289718,8 @@ msgid ""
 "Mark recipes in this tab as read?  This cannot be undone.  You can mark all "
 "recipes by choosing yes and pressing %s again."
 msgstr ""
+"Пометить рецепты в этой вкладке прочитанными? Это нельзя отменить. Вы можете"
+" отметить все рецепты, выбрав «да» и снова нажав %s."
 
 #: src/crafting_gui.cpp
 #, c-format
@@ -289306,6 +289727,8 @@ msgid ""
 "Mark filtered recipes as read?  This cannot be undone.  You can mark all "
 "recipes by choosing yes and pressing %s again."
 msgstr ""
+"Пометить отфильтрованные рецепты прочитанными? Это нельзя отменить. Вы "
+"можете отметить все рецепты, выбрав «да» и снова нажав %s."
 
 #: src/crafting_gui.cpp
 msgid "RESULTS"
@@ -289605,6 +290028,8 @@ msgid ""
 "Excessive error repetition detected.  Please file a bug report at "
 "https://github.com/cataclysmbn/Cataclysm-BN/issues"
 msgstr ""
+"Обнаружено чрезмерное повторение ошибки. Пожалуйста, сообщите об этом здесь:"
+" https://github.com/cataclysmbn/Cataclysm-BN/issues"
 
 #: src/debug.cpp
 #, c-format
@@ -289716,12 +290141,8 @@ msgid "Toggle display submap grid"
 msgstr "Переключить отображение сетки подкарты"
 
 #: src/debug_menu.cpp
-msgid "Toggle zone overlay"
-msgstr ""
-
-#: src/debug_menu.cpp
 msgid "Set automove target"
-msgstr ""
+msgstr "Установить цель автодвижения"
 
 #: src/debug_menu.cpp
 msgid "Show mutation category levels"
@@ -290145,7 +290566,7 @@ msgstr "[r] изучить все рецепты"
 
 #: src/debug_menu.cpp
 msgid "[F]orget all items"
-msgstr ""
+msgstr "[F] Забыть окружающие предметы"
 
 #: src/debug_menu.cpp
 msgid "[L]earn all Spells"
@@ -290425,11 +290846,11 @@ msgstr "Теперь вы знаете, как создавать всё что 
 
 #: src/debug_menu.cpp
 msgid "Item debug."
-msgstr ""
+msgstr "Отладка предметов."
 
 #: src/debug_menu.cpp
 msgid "You don't know about any items anymore."
-msgstr ""
+msgstr "Вы больше не знаете об окружающих предметах."
 
 #: src/debug_menu.cpp
 msgid "There are no spells to learn.  You must install a mod that adds some."
@@ -291925,6 +292346,26 @@ msgstr "%1$s"
 msgid "You're caught in the explosion!"
 msgstr "Вас накрыло взрывом!"
 
+#. ~ %1$s: entity dealing damage, %2$s: target creature name, %3$d: damage
+#. value
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s for %3$d damage!"
+msgstr "%1$s летит и сталкивается с существом (%2$s), нанеся %3$d урона!"
+
+#. ~ %1$s: entity dealing damage, %2$s: target creature name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s but deals no damage."
+msgstr ""
+"%1$s летит и сталкивается с существом (%2$s), но не наносит никакого урона."
+
+#. ~ %1$s: item name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and smashes into something!"
+msgstr "%1$s летит и во что-то врезается!"
+
 #: src/explosion.cpp
 msgid "a huge explosion!"
 msgstr "сильный взрыв!"
@@ -292326,7 +292767,7 @@ msgstr "Вам и вашему спутнику нужна рация"
 msgid "Within interaction range"
 msgstr "В пределах радиуса взаимодействия"
 
-#: src/faction.cpp
+#: src/faction.cpp src/game.cpp
 msgid "Status: "
 msgstr "Состояние: "
 
@@ -293301,6 +293742,10 @@ msgid "<M>ap"
 msgstr "<M>: карта"
 
 #: src/game.cpp
+msgid "<O> - Toggle Overlays"
+msgstr ""
+
+#: src/game.cpp
 msgid "Zones manager"
 msgstr "Редактор зон"
 
@@ -293407,16 +293852,101 @@ msgstr "<+/->Приоритет"
 
 #: src/game.cpp
 msgid "<T>ravel to"
+msgstr "<T>:Подойти"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "like new"
+msgstr "как новое"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "battered"
+msgstr "побито"
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "wrecked"
+msgstr "разрушено"
+
+#: src/game.cpp
+msgid "Vehicles"
 msgstr ""
 
 #: src/game.cpp
-msgid "You don't see any items or monsters around you!"
-msgstr "Вы не видите вокруг себя ни предметов, ни монстров!"
+msgid "You don't see any vehicles around you!"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "%d %s"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "Engine: %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "off"
+msgstr ""
+
+#: src/game.cpp
+msgid "on"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "Moving: %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle has enough wheels."
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle does not have enough wheels."
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "%s / %s %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle is leaking fuel."
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "Floats: %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "Speed: "
+msgstr ""
+
+#: src/game.cpp
+msgid "Engine: "
+msgstr ""
+
+#: src/game.cpp
+msgid "Cargo: "
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle can float."
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle can't float."
+msgstr ""
+
+#: src/game.cpp
+msgid "You don't see any items, monsters, or vehicles around you!"
+msgstr ""
 
 #: src/game.cpp
 msgctxt "list items"
 msgid "NEW!"
-msgstr ""
+msgstr "НОВОЕ!"
 
 #: src/game.cpp
 msgid "You don't see any items around you!"
@@ -296144,11 +296674,11 @@ msgstr ""
 
 #: src/handle_action.cpp
 msgid "Your mount can't go downstairs while riding."
-msgstr ""
+msgstr "Ваш скакун не может спуститься по лестнице, если на нём наездник."
 
 #: src/handle_action.cpp
 msgid "Your mount can't go upstairs or climb while riding."
-msgstr ""
+msgstr "Ваш скакун не может подняться по лестнице, если на нём наездник."
 
 #: src/handle_action.cpp
 msgid "The craft struggles to generate enough lift!"
@@ -305647,7 +306177,7 @@ msgstr "Этот предмет никогда не сбоит."
 #: src/iuse_actor.cpp
 #, c-format
 msgid "You lack the energy to cast %s."
-msgstr ""
+msgstr "У вас недостаточно энергии, чтобы наколдовать %s."
 
 #: src/iuse_actor.cpp
 #, c-format
@@ -311480,14 +312010,15 @@ msgstr "%s x %d"
 msgid ""
 "< %s to filter, %s to reset, %s/%s to adjust size, %s to copy, %s to erase >"
 msgstr ""
+"< %s фильтр, %s сброс %s/%s изменение размера, %s копировать, %s стереть >"
 
 #: src/messages.cpp
 msgid "Messages written to debug.log"
-msgstr ""
+msgstr "Сообщения записаны в debug.log"
 
 #: src/messages.cpp
 msgid "Messages written to debug.log and copied to clipboard"
-msgstr ""
+msgstr "Сообщения записаны в debug.log и скопированы в буфер обмена"
 
 #: src/messages.cpp
 #, c-format
@@ -311619,7 +312150,7 @@ msgstr "Крайний срок: %s"
 
 #: src/mission_ui.cpp src/newcharacter.cpp
 msgid "None!"
-msgstr "Отсутствуют!"
+msgstr "Ничего!"
 
 #: src/mission_ui.cpp
 #, c-format
@@ -315521,7 +316052,7 @@ msgstr "ПРОФЕССИЯ"
 
 #: src/newcharacter.cpp
 msgid "OVERVIEW"
-msgstr ""
+msgstr "ПРЕДПРОСМОТР"
 
 #: src/newcharacter.cpp
 msgid "points"
@@ -315753,39 +316284,39 @@ msgstr[3] "Извините, но вы можете взять только %d �
 #, c-format
 msgid ""
 "These bionics are dependent on the bionic you are trying to uninstall %s."
-msgstr ""
+msgstr "Бионика зависит от другой бионики, которую вы пытаетесь удалить: %s."
 
 #: src/newcharacter.cpp
 msgid "The scenario you picked prevents you from taking any bionics!"
-msgstr ""
+msgstr "Выбранный вами сценарий запрещает выбор любой бионики!"
 
 #: src/newcharacter.cpp
 msgid "The profession you picked prevents you from taking any bionics!"
-msgstr ""
+msgstr "Выбранная вами профессия запрещает выбор любой бионики!"
 
 #: src/newcharacter.cpp
 msgid "The scenario you picked prevents you from taking this bionic!"
-msgstr ""
+msgstr "Выбранный вами сценарий запрещает выбор этой бионики!"
 
 #: src/newcharacter.cpp
 #, c-format
 msgid "Your profession of %s prevents you from taking this bionic."
-msgstr ""
+msgstr "Вы %s, что не позволяет выбрать эту бионику. "
 
 #: src/newcharacter.cpp
 #, c-format
 msgid "Your scenario of %s prevents you from removing this bionic."
-msgstr ""
+msgstr "Сценарий %s не позволяет удалить эту бионику."
 
 #: src/newcharacter.cpp
 #, c-format
 msgid "Your profession of %s prevents you from removing this bionic."
-msgstr ""
+msgstr "Вы %s, что не позволяет удалить эту бионику. "
 
 #: src/newcharacter.cpp
 #, c-format
 msgid "The following traits prevent you from taking this bionic: %s."
-msgstr ""
+msgstr "Следующие черты не позволяют вам выбрать эту бионику: %s."
 
 #: src/newcharacter.cpp
 #, c-format
@@ -315793,16 +316324,17 @@ msgid ""
 "The lack of the following bionics are prevent you from taking this bionic: "
 "%s."
 msgstr ""
+"Отсутствие необходимой бионики не позволяет вам выбрать эту бионику: %s."
 
 #: src/newcharacter.cpp
 #, c-format
 msgid "You already have the downgraded version of the bionic: %s"
-msgstr ""
+msgstr "У вас уже есть упрощённая версия бионики: %s"
 
 #: src/newcharacter.cpp
 #, c-format
 msgid "You already have the upgraded version of the bionic: %s"
-msgstr ""
+msgstr "У вас уже есть улучшенная версия бионики: %s"
 
 #: src/newcharacter.cpp
 msgid "no filter"
@@ -316118,11 +316650,11 @@ msgstr "Выберите начальную локацию"
 
 #: src/newcharacter.cpp
 msgid "Bionics: "
-msgstr ""
+msgstr "Бионика:"
 
 #: src/newcharacter.cpp
 msgid "Spells: "
-msgstr ""
+msgstr "Заклинания:"
 
 #: src/newcharacter.cpp
 #, c-format
@@ -316209,43 +316741,43 @@ msgstr "Начальная локация:"
 
 #: src/newcharacter.cpp
 msgid "Vehicle: "
-msgstr ""
+msgstr "Транспорт:"
 
 #: src/newcharacter.cpp
 msgid "Companions: "
-msgstr ""
+msgstr "Напарники:"
 
 #: src/newcharacter.cpp
 msgid "Cash: "
-msgstr ""
+msgstr "Наличка:"
 
 #: src/newcharacter.cpp
 msgid "Random!"
-msgstr ""
+msgstr "Случайно!"
 
 #: src/newcharacter.cpp
 msgid "Pets: "
-msgstr ""
+msgstr "Питомцы:"
 
 #: src/newcharacter.cpp
 msgid "Addictions: "
-msgstr ""
+msgstr "Зависимости:"
 
 #: src/newcharacter.cpp
 msgid "Items: "
-msgstr ""
+msgstr "Предметы:"
 
 #: src/newcharacter.cpp
 msgid "Wielded: "
-msgstr ""
+msgstr "В руках:"
 
 #: src/newcharacter.cpp
 msgid "Worn: "
-msgstr ""
+msgstr "На теле:"
 
 #: src/newcharacter.cpp
 msgid "Inventory: "
-msgstr ""
+msgstr "Инвентарь:"
 
 #: src/newcharacter.cpp
 msgid "Scenario: "
@@ -319216,19 +319748,20 @@ msgstr ""
 
 #: src/options.cpp
 msgid "Highlight unread recipes"
-msgstr ""
+msgstr "Подсветить непрочитанные рецепты"
 
 #: src/options.cpp
 msgid "Highlight unread recipes to allow tracking of newly learned recipes."
 msgstr ""
+"Подсветка непрочитанных рецептов для отслеживания того, что вы изучаете."
 
 #: src/options.cpp
 msgid "Highlight unread items"
-msgstr ""
+msgstr "Подсвечивать неосмотренные предметы"
 
 #: src/options.cpp
 msgid "Highlight unread items to allow tracking of newly discovered items."
-msgstr ""
+msgstr "Подсвечивать неосмотренные ранее предметы для отслеживания находок."
 
 #: src/options.cpp
 msgid "Add ammo to weapon/magazine names"
@@ -320122,6 +320655,18 @@ msgstr ""
 "урона, необходимое для детонации. Значение 0 выключает эту механику."
 
 #: src/options.cpp
+msgid "Item damage on flying impact"
+msgstr "Урон от летящих объектов"
+
+#: src/options.cpp
+msgid ""
+"If true, items flung by explosions will deal (lethal) damage to whatever "
+"they hit."
+msgstr ""
+"Если включено, различные объекты окружения, отправленные в полёт взрывной "
+"волной, будут наносить (смертельный) урон всему, с чем они столкнутся."
+
+#: src/options.cpp
 msgid "Old explosions system"
 msgstr "Старая система взрывов"
 
@@ -320278,6 +320823,14 @@ msgstr "Замки на дверях автомобилей"
 #: src/options.cpp
 msgid "Determines if new vehicles can spawn with locked doors."
 msgstr "Определяет, могут ли новые автомобили появляться с запертыми дверьми."
+
+#: src/options.cpp
+msgid "Vehicle spawn rate scaling factor"
+msgstr "Множитель появления транспортных средств"
+
+#: src/options.cpp
+msgid "A scaling factor that determines density of vehicle spawns."
+msgstr "Множитель, определяющий частоту появления различного транспорта."
 
 #: src/options.cpp
 msgid "Spawn rate scaling factor"
@@ -321409,8 +321962,12 @@ msgid "Type COLOR;TEXT to set a custom color."
 msgstr "Напишите ЦВЕТ;ТЕКСТ, чтобы установить пользовательский цвет."
 
 #: src/overmap_ui.cpp
-msgid "Examples: B:Base | g;Loot | !:R;Minefield"
-msgstr "Примеры: B;База | g;Предметы | !:R;Минное поле"
+msgid "Type SPRITE:TILE_ID to set a custom sprite."
+msgstr ""
+
+#: src/overmap_ui.cpp
+msgid "Examples: B:Base | g;Loot | SPRITE:toolbox;g;Tools"
+msgstr ""
 
 #: src/overmap_ui.cpp
 msgid "Note:"
@@ -325897,7 +326454,7 @@ msgstr "<color_light_red>утонет</color>"
 
 #: src/veh_interact.cpp
 msgid "<color_light_blue>floats</color>"
-msgstr "<color_light_blue>поплавки</color>"
+msgstr "<color_light_blue>будет плыть</color>"
 
 #: src/veh_interact.cpp
 #, c-format
@@ -325907,7 +326464,7 @@ msgstr "Ходовая/корпус: %s/%s"
 #: src/veh_interact.cpp
 #, c-format
 msgid "Boat: %s"
-msgstr "Корпус лодки: %s"
+msgstr "Плавучесть: %s"
 
 #: src/veh_interact.cpp
 #, c-format
@@ -325983,7 +326540,7 @@ msgstr "Максимальная плавучесть: <color_light_blue>%5.0f</
 msgid ""
 "Cargo Volume: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr ""
-"Грузоподъёмность: <color_light_blue>%s</color> / "
+"Объём для багажа: <color_light_blue>%s</color> / "
 "<color_light_blue>%s</color> %s"
 
 #: src/veh_interact.cpp
@@ -325996,21 +326553,21 @@ msgstr "Самое повреждённое:"
 
 #: src/veh_interact.cpp
 msgid "Most damaged (can't repair):"
-msgstr "Самое повреждённое (невозможно починить):"
+msgstr "Не подлежит ремонту:"
 
 #: src/veh_interact.cpp
 msgid "Needs repair:"
-msgstr "Необходим ремонт:"
+msgstr "Нужен ремонт:"
 
 #: src/veh_interact.cpp
 #, c-format
 msgid "Air drag:       <color_light_blue>%5.2f</color>"
-msgstr "Сопротив. воздуха: <color_light_blue>%5.2f</color>"
+msgstr "Сопротив. воздуха:  <color_light_blue>%5.2f</color>"
 
 #: src/veh_interact.cpp
 #, c-format
 msgid "Water drag:     <color_light_blue>%5.2f</color>"
-msgstr "Сопротивление воды: <color_light_blue>%5.2f</color>"
+msgstr "Сопротив. воды:     <color_light_blue>%5.2f</color>"
 
 #: src/veh_interact.cpp
 #, c-format
@@ -326233,18 +326790,6 @@ msgstr "Ёмкость батарей"
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "Зарядка: <color_light_gray>%+8d</color>"
-
-#: src/veh_interact.cpp
-msgid "like new"
-msgstr "как новое"
-
-#: src/veh_interact.cpp
-msgid "battered"
-msgstr "побито"
-
-#: src/veh_interact.cpp
-msgid "wrecked"
-msgstr "разрушено"
 
 #: src/veh_interact.cpp
 msgid "Select tank to siphon:"

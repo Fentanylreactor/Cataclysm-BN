@@ -3300,7 +3300,10 @@ bool repair_item_actor::handle_components( player &pl, const item &fix,
 static int find_repair_difficulty( const player &pl, const itype_id &id, bool training )
 {
     // If the recipe is not found, this will remain unchanged
-    int min = -1;
+    int min = id->repair_difficulty;
+    if( min != -1 ) {
+        return min;
+    }
     for( const auto &e : recipe_dict ) {
         const auto r = e.second;
         if( id != r.result() ) {
@@ -4501,13 +4504,8 @@ ret_val<bool> install_bionic_actor::can_use( const Character &p, const item &it,
         return ret_val<bool>::make_failure( _( "You have already installed this bionic." ) );
     } else if( bid->upgraded_bionic && !p.has_bionic( bid->upgraded_bionic ) ) {
         return ret_val<bool>::make_failure( _( "There is nothing to upgrade." ) );
-    } else {
-        const bool downgrade = std::any_of( bid->available_upgrades.begin(), bid->available_upgrades.end(),
-                                            std::bind( &player::has_bionic, &p, std::placeholders::_1 ) );
-
-        if( downgrade ) {
-            return ret_val<bool>::make_failure( _( "You have a superior version installed." ) );
-        }
+    } else if( character_funcs::has_upgraded_bionic( p, bid ) ) {
+        return ret_val<bool>::make_failure( _( "You have a superior version installed." ) );
     }
 
     return ret_val<bool>::make_success();

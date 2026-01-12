@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-bn\n"
-"POT-Creation-Date: 2026-01-03 19:46+0000\n"
+"POT-Creation-Date: 2026-01-11 03:04+0000\n"
 "Last-Translator: Coolthulhu <Coolthulhu@gmail.com>, 2023\n"
 "Language-Team: Arabic (https://app.transifex.com/bn-team/teams/113585/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -4830,6 +4830,10 @@ msgid "Build Clay Kiln"
 msgstr ""
 
 #: data/json/construction_group.json
+msgid "Build Charcoal Purifier"
+msgstr ""
+
+#: data/json/construction_group.json
 msgid "Build Coat Rack"
 msgstr ""
 
@@ -5146,6 +5150,10 @@ msgid "Build Road Barricade"
 msgstr ""
 
 #: data/json/construction_group.json
+msgid "Build Simple Wooden Barricade"
+msgstr ""
+
+#: data/json/construction_group.json
 msgid "Build Rock Forge"
 msgstr ""
 
@@ -5255,6 +5263,10 @@ msgstr ""
 
 #: data/json/construction_group.json
 msgid "Build Tarp Lean-To"
+msgstr ""
+
+#: data/json/construction_group.json
+msgid "Build Leather Tarp Lean-To"
 msgstr ""
 
 #: data/json/construction_group.json
@@ -11422,6 +11434,13 @@ msgstr ""
 #. ~ Please leave anything in <angle brackets> unchanged.
 #: data/json/flags.json
 msgid ""
+"This thrown item <info>flies straight</info> without rotating in the air, "
+"maintaining its aerodynamic orientation."
+msgstr ""
+
+#. ~ Please leave anything in <angle brackets> unchanged.
+#: data/json/flags.json
+msgid ""
 "This weapon <good>can shoot underwater</good>, but <info>unless it was "
 "specifically designed to do so</info>, it <bad>will suffer from accuracy "
 "penalty</bad>."
@@ -12534,6 +12553,10 @@ msgstr ""
 msgid "WEAPON HELD"
 msgstr ""
 
+#: data/json/item_category.json
+msgid "USABLE BIONICS"
+msgstr ""
+
 #: data/json/legacy_artifact_active.json
 msgid "Artifact Adrenaline"
 msgstr ""
@@ -13638,101 +13661,6 @@ msgstr ""
 msgid ""
 "Items in this zone will be automatically consumed during a long activity if "
 "you get thirsty."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Do you want to modify grid connections?"
-msgstr ""
-
-#: data/json/main.lua src/iexamine.cpp src/iuse.cpp
-#, c-format
-msgid "This electric grid stores %d kJ of electric power."
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Generation: %s"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Consumption: %s"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid ""
-"\n"
-"Net: %s"
-msgstr ""
-
-#. ~ %s is list of directions
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "This electric grid has connections: %s."
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-msgid "This electric grid has no connections."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Modify Grid Connections"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Add connection in direction: %s"
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-#, c-format
-msgid "Remove connection in direction: %s"
-msgstr ""
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting a grid with %d elements to a grid with %d elements."
-msgstr ""
-
-#: data/json/main.lua
-#, c-format
-msgid "You are extending a grid with %d elements."
-msgstr ""
-
-#: data/json/main.lua
-#, c-format
-msgid "You are connecting two locations in the same grid, with %d elements."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Error: requirement not found."
-msgstr ""
-
-#: data/json/main.lua src/iuse.cpp
-msgid "Are you sure?"
-msgstr ""
-
-#: data/json/main.lua
-msgid ""
-"This action will not consume any resources.\n"
-"Are you sure?"
-msgstr ""
-
-#: data/json/main.lua
-msgid "Failed to establish grid connection."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Grid connection established."
-msgstr ""
-
-#: data/json/main.lua
-msgid "Grid connection removed."
 msgstr ""
 
 #: data/json/martialarts.json
@@ -15948,7 +15876,7 @@ msgid "Resin"
 msgstr ""
 
 #: data/json/materials.json data/mods/Aftershock/items/materials.json
-#: data/mods/MagicalNights/materials.json src/veh_interact.cpp
+#: data/mods/MagicalNights/materials.json src/game.cpp src/veh_interact.cpp
 msgid "dented"
 msgstr ""
 
@@ -15990,7 +15918,8 @@ msgstr ""
 msgid "smashed"
 msgstr ""
 
-#: data/json/materials.json src/character.cpp src/veh_interact.cpp
+#: data/json/materials.json src/character.cpp src/game.cpp
+#: src/veh_interact.cpp
 msgid "destroyed"
 msgstr ""
 
@@ -16665,7 +16594,7 @@ msgstr[3] ""
 msgstr[4] ""
 msgstr[5] ""
 
-#. ~ Description for {'str': 'bio lockpick'}
+#. ~ Description for {'str': 'bionic lockpick'}
 #: data/json/monster_attacks.json data/json/items/gun/bio.json
 #: data/json/items/tool/entry_tools.json
 msgid "this a pseudo item"
@@ -18161,6 +18090,36 @@ msgid ""
 " enchauntment brought ye hidder.  Wyth this accoustrement ye must needs "
 "underfongen to find newe lyflode in the most hidous Cataclysm man hath "
 "witnessed sithen that deluge Noe rood out in his greet schippe."
+msgstr ""
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Prehistoric Hunter"
+msgstr ""
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Prehistoric Hunter"
+msgstr ""
+
+#. ~ Profession (male Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
+msgstr ""
+
+#. ~ Profession (female Prehistoric Hunter) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"An out-of-place living relic of prehistory, stranded in an unfamiliar and "
+"terrifying world.  Life as a hunter-gatherer was hard, but at least you "
+"didn't have to fight the living dead, and you had your kin to stand beside "
+"you.  Here, you're on your own."
 msgstr ""
 
 #: data/json/professions.json
@@ -22619,6 +22578,34 @@ msgid ""
 "You have come to an understanding with Mother Nature over long years of "
 "self-imposed exile in the wilderness.  The world as they knew it might have "
 "ended for your forsaken species, but you can hardly tell the difference."
+msgstr ""
+
+#: data/json/professions.json
+msgctxt "profession_male"
+msgid "Wanderer"
+msgstr ""
+
+#: data/json/professions.json
+msgctxt "profession_female"
+msgid "Wanderer"
+msgstr ""
+
+#. ~ Profession (male Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
+msgstr ""
+
+#. ~ Profession (female Wanderer) description
+#: data/json/professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"You always preferred the comfort of the open sky, far from the complexities "
+"of modern life.  Though from the looks of it, things have changed since last"
+" time you've been anywhere near civilization."
 msgstr ""
 
 #: data/json/professions.json
@@ -29038,6 +29025,10 @@ msgid "Middle of Nowhere"
 msgstr ""
 
 #: data/json/start_locations.json
+msgid "Swamp"
+msgstr ""
+
+#: data/json/start_locations.json
 msgid "Deserted Island"
 msgstr ""
 
@@ -31759,6 +31750,101 @@ msgstr ""
 msgid "Milk"
 msgstr ""
 
+#: data/json/voltmeter.lua
+msgid "Do you want to modify grid connections?"
+msgstr ""
+
+#: data/json/voltmeter.lua src/iexamine.cpp src/iuse.cpp
+#, c-format
+msgid "This electric grid stores %d kJ of electric power."
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Generation: %s"
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Consumption: %s"
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid ""
+"\n"
+"Net: %s"
+msgstr ""
+
+#. ~ %s is list of directions
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "This electric grid has connections: %s."
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "This electric grid has no connections."
+msgstr ""
+
+#: data/json/voltmeter.lua
+msgid "Modify Grid Connections"
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Add connection in direction: %s"
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+#, c-format
+msgid "Remove connection in direction: %s"
+msgstr ""
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting a grid with %d elements to a grid with %d elements."
+msgstr ""
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are extending a grid with %d elements."
+msgstr ""
+
+#: data/json/voltmeter.lua
+#, c-format
+msgid "You are connecting two locations in the same grid, with %d elements."
+msgstr ""
+
+#: data/json/voltmeter.lua
+msgid "Error: requirement not found."
+msgstr ""
+
+#: data/json/voltmeter.lua src/iuse.cpp
+msgid "Are you sure?"
+msgstr ""
+
+#: data/json/voltmeter.lua
+msgid ""
+"This action will not consume any resources.\n"
+"Are you sure?"
+msgstr ""
+
+#: data/json/voltmeter.lua
+msgid "Failed to establish grid connection."
+msgstr ""
+
+#: data/json/voltmeter.lua
+msgid "Grid connection established."
+msgstr ""
+
+#: data/json/voltmeter.lua
+msgid "Grid connection removed."
+msgstr ""
+
 #. ~ weapon category name
 #: data/json/weapon_categories.json
 msgid "Fist Weapons"
@@ -34102,6 +34188,18 @@ msgid ""
 "A road barricade.  For barricading roads.  You could stand next to it to "
 "fire past without it blocking your shots, not that it will slow them down "
 "much."
+msgstr ""
+
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid "simple wooden barricade"
+msgstr ""
+
+#. ~ Description for simple wooden barricade
+#: data/json/furniture_and_terrain/furniture-barriers.json
+msgid ""
+"A waist-high barricade made of stout saplings, held in place by poles "
+"hammered into the ground.  Useful to fence in a campsite and shelter a fire "
+"from the wind, or slow down intruders."
 msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-barriers.json
@@ -37893,6 +37991,30 @@ msgstr ""
 msgid "A tall piece of furniture used to divide rooms into separate areas."
 msgstr ""
 
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid "tarp lean-to"
+msgstr ""
+
+#. ~ Description for tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+#: data/json/obsoletion/uncategorized.json
+msgid ""
+"A small shelter covered by waterproof tarp, that can be used to take refuge "
+"from the elements."
+msgstr ""
+
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid "leather tarp lean-to"
+msgstr ""
+
+#. ~ Description for leather tarp lean-to
+#: data/json/furniture_and_terrain/furniture-terrains.json
+msgid ""
+"A makeshift shelter made from a lather tarp and stakes driven into the "
+"ground."
+msgstr ""
+
 #: data/json/furniture_and_terrain/furniture-tools.json
 #: data/json/furniture_and_terrain/terrain-mechanisms.json
 msgid "broken console"
@@ -38083,6 +38205,17 @@ msgstr ""
 #. ~ Description for clay kiln
 #: data/json/furniture_and_terrain/furniture-tools.json
 msgid "A kiln designed to bake clay pottery and bricks."
+msgstr ""
+
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid "charcoal purifier"
+msgstr ""
+
+#. ~ Description for charcoal purifier
+#: data/json/furniture_and_terrain/furniture-tools.json
+msgid ""
+"A makeshift filter constructed to hold a supply of charcoal, for purifying "
+"water."
 msgstr ""
 
 #: data/json/furniture_and_terrain/furniture-tools.json
@@ -42346,17 +42479,6 @@ msgid ""
 msgstr ""
 
 #: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid "tarp lean-to"
-msgstr ""
-
-#. ~ Description for tarp lean-to
-#: data/json/furniture_and_terrain/terrain-manufactured.json
-msgid ""
-"A small shelter covered by waterproof tarp, that can be used to take refuge "
-"from the elements."
-msgstr ""
-
-#: data/json/furniture_and_terrain/terrain-manufactured.json
 msgid "unfinished niter bed"
 msgstr ""
 
@@ -46016,6 +46138,69 @@ msgid ""
 "harder than any old pebble."
 msgstr ""
 
+#: data/json/items/ammo.json
+msgid "wooden atlatl dart"
+msgid_plural "wooden atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'wooden atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a fire-hardened sharpened "
+"point."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "iron atlatl dart"
+msgid_plural "iron atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'iron atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with an iron spear point."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "stone atlatl dart"
+msgid_plural "stone atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'stone atlatl dart'}
+#: data/json/items/ammo.json
+msgid ""
+"A long, flexible dart for a spear-thrower, with a small stone spearhead."
+msgstr ""
+
+#: data/json/items/ammo.json
+msgid "copper atlatl dart"
+msgid_plural "copper atlatl darts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'copper atlatl dart'}
+#: data/json/items/ammo.json
+msgid "A long, flexible dart for a spear-thrower, with a copper spear point."
+msgstr ""
+
 #: data/json/items/ammo_types.json
 msgid ".50 BMG"
 msgstr ""
@@ -46046,6 +46231,10 @@ msgstr ""
 
 #: data/json/items/ammo_types.json
 msgid "arrows"
+msgstr ""
+
+#: data/json/items/ammo_types.json
+msgid "atlatl dart"
 msgstr ""
 
 #: data/json/items/ammo_types.json
@@ -63406,6 +63595,40 @@ msgid ""
 msgstr ""
 
 #: data/json/items/armor/ammo_pouch.json
+msgid "atlatl dart quiver"
+msgid_plural "atlatl dart quivers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A leather quiver worn at the waist, lengthened to hold atlatl darts.  "
+"Activate to store up to 15 darts."
+msgstr ""
+
+#: data/json/items/armor/ammo_pouch.json
+msgid "birchbark atlatl dart quiver"
+msgid_plural "birchbark atlatl dart quivers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'birchbark atlatl dart quiver'}
+#: data/json/items/armor/ammo_pouch.json
+msgid ""
+"A quiver woven from strips of birch bark, worn at the waist, lengthened to "
+"hold atlatl darts.  Activate to store up to 15 darts."
+msgstr ""
+
+#: data/json/items/armor/ammo_pouch.json
 msgid "tac vest"
 msgid_plural "tac vests"
 msgstr[0] ""
@@ -77968,6 +78191,24 @@ msgid ""
 msgstr ""
 
 #: data/json/items/armor/sheath.json
+msgid "birchbark sheath"
+msgid_plural "birchbark sheathes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'birchbark sheath', 'str_pl': 'birchbark
+#. sheathes'}
+#: data/json/items/armor/sheath.json
+msgid ""
+"A hand made sheath made from birch bark, for holding knives and other small "
+"blades.  Activate to sheathe/draw a weapon."
+msgstr ""
+
+#: data/json/items/armor/sheath.json
 msgid "spear strap"
 msgid_plural "spear straps"
 msgstr[0] ""
@@ -78977,6 +79218,23 @@ msgstr[5] ""
 #. ~ Description for {'str': 'straw basket'}
 #: data/json/items/armor/storage.json
 msgid "Hand made straw basket.  Carry it with you for extra storage."
+msgstr ""
+
+#: data/json/items/armor/storage.json
+msgid "pack basket"
+msgid_plural "pack baskets"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'pack basket'}
+#: data/json/items/armor/storage.json
+msgid ""
+"A large hand made straw basket, with shoulder straps to wear like a "
+"backpack."
 msgstr ""
 
 #: data/json/items/armor/storage.json
@@ -88946,6 +89204,7 @@ msgstr[4] ""
 msgstr[5] ""
 
 #: data/json/items/classes/range.json data/json/items/gun/monster_gun.json
+#: data/json/items/ranged/slings.json
 #: data/mods/lethal_zeds/monster_overwrites.json
 msgctxt "gun_type_type"
 msgid "throw"
@@ -119436,6 +119695,42 @@ msgid ""
 msgstr ""
 
 #: data/json/items/gunmod/mechanism.json
+msgid "universal auto link"
+msgid_plural "universal auto links"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A crude, adjustable link and modified disconnector intended to defeat a "
+"rifle's semi-auto fire control group.  When carefully fitted, it turns many "
+"semiautomatic rifles into full-auto only, at the cost of reliability and "
+"accuracy."
+msgstr ""
+
+#: data/json/items/gunmod/mechanism.json
+msgid "universal automatic conversion kit"
+msgid_plural "universal automatic conversion kits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: data/json/items/gunmod/mechanism.json
+msgid ""
+"A collection of oversized, semi-finished fire-control parts, gauges, and "
+"springs meant to be hand-fitted to a wide range of semiautomatic rifles.  "
+"When successfully installed it provides burst and full-auto fire, but the "
+"compromises required for a one-size-fits-many kit reduce precision."
+msgstr ""
+
+#: data/json/items/gunmod/mechanism.json
 msgid "glock switch"
 msgid_plural "glock switchs"
 msgstr[0] ""
@@ -126013,6 +126308,36 @@ msgid ""
 msgstr ""
 
 #: data/json/items/melee/spears_and_polearms.json
+msgid "stone javelin"
+msgid_plural "stone javelins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'stone javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A throwing spear with a stone spearhead."
+msgstr ""
+
+#: data/json/items/melee/spears_and_polearms.json
+msgid "copper javelin"
+msgid_plural "copper javelins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'copper javelin'}
+#: data/json/items/melee/spears_and_polearms.json
+msgid "A copper-tipped throwing spear."
+msgstr ""
+
+#: data/json/items/melee/spears_and_polearms.json
 msgctxt "weapon"
 msgid "wooden pike"
 msgid_plural "wooden pikes"
@@ -129602,6 +129927,24 @@ msgid ""
 msgstr ""
 
 #: data/json/items/ranged/crossbows.json
+msgid "makeshift crossbow"
+msgid_plural "makeshift crossbows"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: data/json/items/ranged/crossbows.json
+msgid ""
+"A simple, handmade crossbow of the Skane style, with a wooden peg that is "
+"pushed up from underneath to loose the bowstring.  Not as powerful as other "
+"crossbow designs, but it is easier to draw the bow back.  Bolts fired from "
+"this weapon have a good chance of remaining intact for re-use."
+msgstr ""
+
+#: data/json/items/ranged/crossbows.json
 msgid "pistol crossbow"
 msgid_plural "pistol crossbows"
 msgstr[0] ""
@@ -129942,6 +130285,22 @@ msgid ""
 "tension.  It fires full-size rocks with much more power and range than "
 "pebbles out of a normal slingshot.  High strength will make it faster to "
 "reload."
+msgstr ""
+
+#: data/json/items/ranged/slings.json
+msgid "atlatl"
+msgid_plural "atlatls"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: data/json/items/ranged/slings.json
+msgid ""
+"A wooden tool for supporting a javelin, to throw it more effectively than by"
+" hand."
 msgstr ""
 
 #: data/json/items/ranged/spearguns.json
@@ -133588,8 +133947,8 @@ msgid ""
 msgstr ""
 
 #: data/json/items/tool/entry_tools.json
-msgid "bio lockpick"
-msgid_plural "bio lockpicks"
+msgid "bionic lockpick"
+msgid_plural "bionic lockpicks"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
@@ -143613,6 +143972,23 @@ msgstr[5] ""
 #. ~ Description for {'str_sp': 'wired sheet metal'}
 #: data/json/items/vehicle/plating.json
 msgid "Sheet metal that has had light housing wired into it."
+msgstr ""
+
+#: data/json/items/vehicle/plating.json
+msgid "aluminum sheet"
+msgid_plural "aluminum sheets"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. ~ Description for {'str': 'aluminum sheet'}
+#: data/json/items/vehicle/plating.json
+msgid ""
+"A thin sheet of aluminum, usable for lightweight car body panels or to keep "
+"a boat afloat."
 msgstr ""
 
 #: data/json/items/vehicle/plating.json
@@ -208372,6 +208748,14 @@ msgid ""
 msgstr ""
 
 #: data/json/vehicleparts/boards.json
+msgid "aluminum board"
+msgstr ""
+
+#: data/json/vehicleparts/boards.json
+msgid "aluminum quarterpanel"
+msgstr ""
+
+#: data/json/vehicleparts/boards.json
 msgid "stow board"
 msgstr ""
 
@@ -210105,6 +210489,15 @@ msgstr ""
 msgid ""
 "A light weight, advanced carbon fiber rigid sheet that keeps the water out "
 "of your boat."
+msgstr ""
+
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "aluminum boat hull"
+msgstr ""
+
+#. ~ Description for {'str': 'aluminum boat hull'}
+#: data/json/vehicleparts/vehicle_parts.json
+msgid "A rigid aluminum sheet that keeps water out of your boat."
 msgstr ""
 
 #. ~ Description for {'str': 'hovercraft impeller'}
@@ -256257,7 +256650,7 @@ msgstr ""
 msgid ""
 "Welcome to e-book library!\n"
 "This device currently holds %d book(s).\n"
-"Network sync unavilable."
+"Network sync unavailable."
 msgstr ""
 
 #: data/mods/ebook_lua/main.lua
@@ -256265,7 +256658,7 @@ msgid "Scan book(s)"
 msgstr ""
 
 #: data/mods/ebook_lua/main.lua
-msgid "Scans all the book you have. It will progress instantly."
+msgid "Scan all the books you have. It will progress instantly."
 msgstr ""
 
 #: data/mods/ebook_lua/main.lua
@@ -259305,10 +259698,19 @@ msgid ""
 msgstr ""
 
 #: data/mods/pride_flags/modinfo.json
-msgid "Pride Flags for BN"
+msgid ""
+"<color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>"
+" "
+"<color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>"
+" <color_blue>f</color><color_magenta>o</color><color_red>r</color> "
+"<color_pink>B</color><color_yellow>N</color>"
 msgstr ""
 
-#. ~ Description for Pride Flags for BN
+#. ~ Description for
+#. <color_red>P</color><color_pink>r</color><color_yellow>i</color><color_green>d</color><color_blue>e</color>
+#. <color_magenta>F</color><color_red>l</color><color_pink>a</color><color_yellow>g</color><color_green>s</color>
+#. <color_blue>f</color><color_magenta>o</color><color_red>r</color>
+#. <color_pink>B</color><color_yellow>N</color>
 #: data/mods/pride_flags/modinfo.json
 msgid "Pride flags for Bright Nights, for all your roleplaying needs."
 msgstr ""
@@ -260840,6 +261242,15 @@ msgstr ""
 #. ~ Description for Teleportation
 #: data/mods/teleportation_mod/modinfo.json
 msgid "Add craftable and buildable teleporters."
+msgstr ""
+
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test Lua Require"
+msgstr ""
+
+#. ~ Description for Test Lua Require
+#: data/mods/test_lua_require/modinfo.json
+msgid "Test mod for Lua relative and absolute imports"
 msgstr ""
 
 #: data/mods/underground_dynamic_temperature/modinfo.json
@@ -262692,6 +263103,10 @@ msgstr ""
 
 #: data/raw/keybindings/keybindings.json
 msgid "Show all zones / hide distant zones"
+msgstr ""
+
+#: data/raw/keybindings/keybindings.json src/debug_menu.cpp
+msgid "Toggle zone overlay"
 msgstr ""
 
 #: data/raw/keybindings/keybindings.json
@@ -266565,11 +266980,11 @@ msgstr ""
 msgid "Discover more special encounters to populate this list"
 msgstr ""
 
-#: src/auto_note.cpp src/editmap.cpp
+#: src/auto_note.cpp src/editmap.cpp src/game.cpp
 msgid "no"
 msgstr ""
 
-#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp
+#: src/auto_note.cpp src/crafting_gui.cpp src/editmap.cpp src/game.cpp
 msgid "yes"
 msgstr ""
 
@@ -273814,10 +274229,6 @@ msgid "Toggle display submap grid"
 msgstr ""
 
 #: src/debug_menu.cpp
-msgid "Toggle zone overlay"
-msgstr ""
-
-#: src/debug_menu.cpp
 msgid "Set automove target"
 msgstr ""
 
@@ -275985,6 +276396,25 @@ msgstr ""
 msgid "You're caught in the explosion!"
 msgstr ""
 
+#. ~ %1$s: entity dealing damage, %2$s: target creature name, %3$d: damage
+#. value
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s for %3$d damage!"
+msgstr ""
+
+#. ~ %1$s: entity dealing damage, %2$s: target creature name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and hits %2$s but deals no damage."
+msgstr ""
+
+#. ~ %1$s: item name
+#: src/explosion.cpp
+#, c-format
+msgid "%1$s flies and smashes into something!"
+msgstr ""
+
 #: src/explosion.cpp
 msgid "a huge explosion!"
 msgstr ""
@@ -276385,7 +276815,7 @@ msgstr ""
 msgid "Within interaction range"
 msgstr ""
 
-#: src/faction.cpp
+#: src/faction.cpp src/game.cpp
 msgid "Status: "
 msgstr ""
 
@@ -277337,6 +277767,10 @@ msgid "<M>ap"
 msgstr ""
 
 #: src/game.cpp
+msgid "<O> - Toggle Overlays"
+msgstr ""
+
+#: src/game.cpp
 msgid "Zones manager"
 msgstr ""
 
@@ -277445,8 +277879,93 @@ msgstr ""
 msgid "<T>ravel to"
 msgstr ""
 
+#: src/game.cpp src/veh_interact.cpp
+msgid "like new"
+msgstr ""
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "battered"
+msgstr ""
+
+#: src/game.cpp src/veh_interact.cpp
+msgid "wrecked"
+msgstr ""
+
 #: src/game.cpp
-msgid "You don't see any items or monsters around you!"
+msgid "Vehicles"
+msgstr ""
+
+#: src/game.cpp
+msgid "You don't see any vehicles around you!"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "%d %s"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "Engine: %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "off"
+msgstr ""
+
+#: src/game.cpp
+msgid "on"
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "Moving: %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle has enough wheels."
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle does not have enough wheels."
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "%s / %s %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle is leaking fuel."
+msgstr ""
+
+#: src/game.cpp
+#, c-format
+msgid "Floats: %s"
+msgstr ""
+
+#: src/game.cpp
+msgid "Speed: "
+msgstr ""
+
+#: src/game.cpp
+msgid "Engine: "
+msgstr ""
+
+#: src/game.cpp
+msgid "Cargo: "
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle can float."
+msgstr ""
+
+#: src/game.cpp
+msgid "This vehicle can't float."
+msgstr ""
+
+#: src/game.cpp
+msgid "You don't see any items, monsters, or vehicles around you!"
 msgstr ""
 
 #: src/game.cpp
@@ -303189,6 +303708,16 @@ msgid ""
 msgstr ""
 
 #: src/options.cpp
+msgid "Item damage on flying impact"
+msgstr ""
+
+#: src/options.cpp
+msgid ""
+"If true, items flung by explosions will deal (lethal) damage to whatever "
+"they hit."
+msgstr ""
+
+#: src/options.cpp
 msgid "Old explosions system"
 msgstr ""
 
@@ -303320,6 +303849,14 @@ msgstr ""
 
 #: src/options.cpp
 msgid "Determines if new vehicles can spawn with locked doors."
+msgstr ""
+
+#: src/options.cpp
+msgid "Vehicle spawn rate scaling factor"
+msgstr ""
+
+#: src/options.cpp
+msgid "A scaling factor that determines density of vehicle spawns."
 msgstr ""
 
 #: src/options.cpp
@@ -304325,7 +304862,11 @@ msgid "Type COLOR;TEXT to set a custom color."
 msgstr ""
 
 #: src/overmap_ui.cpp
-msgid "Examples: B:Base | g;Loot | !:R;Minefield"
+msgid "Type SPRITE:TILE_ID to set a custom sprite."
+msgstr ""
+
+#: src/overmap_ui.cpp
+msgid "Examples: B:Base | g;Loot | SPRITE:toolbox;g;Tools"
 msgstr ""
 
 #: src/overmap_ui.cpp
@@ -309055,18 +309596,6 @@ msgstr ""
 #: src/veh_interact.cpp
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
-msgstr ""
-
-#: src/veh_interact.cpp
-msgid "like new"
-msgstr ""
-
-#: src/veh_interact.cpp
-msgid "battered"
-msgstr ""
-
-#: src/veh_interact.cpp
-msgid "wrecked"
 msgstr ""
 
 #: src/veh_interact.cpp
