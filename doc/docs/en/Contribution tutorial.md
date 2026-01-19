@@ -17,7 +17,8 @@ First, This is a list of things you can change/make with zero/barely any coding 
 The tools required :
 
 **A github account**
-**A text editor** (Notepad suffices but Notepad++, Vscode and many others can make your life easier and are free, notepad++ in particular is easy to set up)
+
+**A text editor** (Notepad suffices but VScode, Notepad++ and many others can make your life easier while being free and easy to set up)
 
 Once you have those you are ready to start contributing!
 
